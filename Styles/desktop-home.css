@@ -1,23 +1,26 @@
-
+html, body{
+	height: 100%;
+	margin: 0;
+}
 .desktop {
   	width: 100%;
-  	height: 712px;
+  	height: 100%;
   	position: relative;
   	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
-  	overflow-y: auto;
+	overflow: hidden;
   	text-align: left;
   	font-size: 20px;
   	color: #000;
   	font-family: Lato;
 }
 .desktop-child {
-  	position: absolute;
   	top: 0%;
   	left: -397px;
-  	width: 1734px;
-  	height: 1156px;
+  	width: 100%;
+  	height: 100%;
   	object-fit: cover;
   	flex-shrink: 0;
+	opacity: 20%;
 }
 .footer-2 {
   	position: absolute;
