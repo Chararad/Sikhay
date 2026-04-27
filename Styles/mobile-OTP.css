@@ -7,7 +7,7 @@
   	text-align: center;
   	font-size: 18px;
   	color: #000;
-  	font-family: Inter;
+  	font-family: Lato;
 }
 .mobile-child {
   	position: absolute;
@@ -24,7 +24,6 @@
   	right: 0px;
   	bottom: 0px;
   	left: 0px;
-  	height: 402px;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
@@ -119,7 +118,6 @@
   	left: 2px;
   	font-size: 32px;
   	font-weight: 600;
-  	font-family: '42dot Sans';
   	color: #fff;
   	text-align: center;
   	display: flex;
@@ -181,9 +179,8 @@
   	left: 43px;
   	height: 72px;
   	flex-shrink: 0;
-  	font-size: 18px;
+  	text-align: center;
   	color: #fff;
-  	font-family: Poppins;
 }
 .group-child {
   	position: absolute;
@@ -198,10 +195,8 @@
 }
 .confirm {
   	position: absolute;
-  	top: 22px;
-  	right: 48px;
-  	display: inline-block;
-  	width: 97px;
+  	right: 63px;
+  	bottom: 22px;
 }
 .b {
   	position: absolute;
@@ -236,7 +231,6 @@
   	left: calc(50% - 97.5px);
   	font-size: 12px;
   	font-weight: 500;
-  	font-family: Poppins;
   	color: #b6b6b6;
   	display: inline-block;
   	width: 195px;

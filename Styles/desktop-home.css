@@ -1,4 +1,3 @@
-this is for /loginpage
 .desktop {
   	width: 100%;
   	height: 712px;
@@ -8,7 +7,7 @@ this is for /loginpage
   	text-align: left;
   	font-size: 20px;
   	color: #000;
-  	font-family: Inter;
+  	font-family: Lato;
 }
 .desktop-child {
   	position: absolute;
@@ -129,7 +128,6 @@ this is for /loginpage
   	flex-shrink: 0;
   	font-size: 24px;
   	color: #fff;
-  	font-family: '42dot Sans';
 }
 .frame-child {
   	width: 100px;
@@ -257,8 +255,8 @@ this is for /loginpage
   	position: relative;
   	font-size: 9.96px;
   	text-align: center;
-  	font-family: Gilroy-Regular;
 }
 .register-for-free {
-  	font-family: Gilroy-Bold;
+  	font-weight: 900;
 }
+

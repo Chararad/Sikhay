@@ -5,9 +5,9 @@
   	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
   	overflow-y: auto;
   	text-align: left;
-  	font-size: 18px;
+  	font-size: 20px;
   	color: #000;
-  	font-family: Inter;
+  	font-family: Lato;
 }
 .mobile-child {
   	position: absolute;
@@ -115,7 +115,6 @@
   	flex-shrink: 0;
   	font-size: 24px;
   	color: #fff;
-  	font-family: '42dot Sans';
 }
 .frame-child {
   	width: 100px;
@@ -245,10 +244,6 @@
   	position: relative;
   	font-size: 9.96px;
   	text-align: center;
-  	font-family: Gilroy-Regular;
-}
-.register-for-free {
-  	font-family: Gilroy-Bold;
 }
 .sikhay-wrapper {
   	position: absolute;

@@ -7,7 +7,7 @@
   	text-align: center;
   	font-size: 20px;
   	color: #000;
-  	font-family: Inter;
+  	font-family: Lato;
 }
 .desktop-child {
   	position: absolute;
@@ -20,17 +20,12 @@
 }
 .footer-2 {
   	position: absolute;
-  	width: 100%;
-  	right: 0px;
   	bottom: 0px;
-  	left: 0px;
-  	height: 100px;
+  	left: calc(50% - 621.5px);
   	display: flex;
   	align-items: center;
-  	justify-content: space-between;
-  	padding: 0px 64px;
-  	box-sizing: border-box;
-  	gap: 20px;
+  	padding: 22px 64px;
+  	gap: 275px;
   	flex-shrink: 0;
 }
 .pampanga-state-u-logo-small-1-icon {
@@ -113,11 +108,10 @@
 .otp-verification {
   	position: absolute;
   	width: calc(100% - 52px);
-  	top: 63px;
+  	top: 62px;
   	left: 26px;
   	font-size: 48px;
   	font-weight: 600;
-  	font-family: '42dot Sans';
   	color: #fff;
   	text-align: center;
   	display: flex;
@@ -171,9 +165,8 @@
   	left: 113px;
   	width: 367px;
   	height: 72px;
-  	font-size: 18px;
+  	text-align: center;
   	color: #fff;
-  	font-family: Poppins;
 }
 .group-child {
   	position: absolute;
@@ -187,10 +180,8 @@
 }
 .confirm {
   	position: absolute;
-  	top: 22px;
-  	left: 145px;
-  	display: inline-block;
-  	width: 76px;
+  	top: 21px;
+  	left: 140px;
 }
 .b {
   	position: absolute;
@@ -213,7 +204,6 @@
   	left: 492px;
   	font-size: 18px;
   	font-weight: 500;
-  	font-family: Poppins;
   	color: #b6b6b6;
   	display: inline-block;
   	width: 300px;
