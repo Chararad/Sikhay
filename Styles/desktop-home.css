@@ -1,9 +1,9 @@
 .desktop {
   	width: 100%;
-  	height: 712px;
+  	height: 950px;
   	position: relative;
   	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
-  	overflow-y: auto;
+  	overflow-y: hidden;
   	text-align: left;
   	font-size: 20px;
   	color: #000;
