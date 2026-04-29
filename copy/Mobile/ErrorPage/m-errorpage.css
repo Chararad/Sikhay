@@ -1,0 +1,185 @@
+.mobile {
+  	width: 100%;
+  	height: 1080px;
+  	position: relative;
+  	background-color: #541616;
+  	overflow-y: auto;
+  	text-align: center;
+  	font-size: 93.75px;
+  	color: #541616;
+  	font-family: Lato;
+}
+.exclude-icon {
+  	position: absolute;
+  	width: calc(100% + 1246px);
+  	top: calc(50% - 540px);
+  	right: -916px;
+  	left: -330px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 1080px;
+  	flex-shrink: 0;
+}
+.div {
+  	position: absolute;
+  	width: calc(100% - 98px);
+  	top: 173px;
+  	left: 49px;
+  	line-height: 93.75px;
+  	font-family: 'Modern Antiqua';
+  	display: inline-block;
+  	height: 74.4px;
+  	text-shadow: 3.3px 0 0 #eeb31a, 0 3.3px 0 #eeb31a, -3.3px 0 0 #eeb31a, 0 -3.3px 0 #eeb31a;
+  	flex-shrink: 0;
+}
+.error-page-not {
+  	position: absolute;
+  	width: calc(100% - 59.2px);
+  	top: 265px;
+  	left: 30px;
+  	font-size: 23.8px;
+  	line-height: 23.8px;
+  	font-weight: 800;
+  	color: #eeb31a;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.the-link-you {
+  	position: absolute;
+  	width: calc(100% + 12px);
+  	top: calc(50% - 242px);
+  	left: -6px;
+  	font-size: 13.86px;
+  	line-height: 13.86px;
+  	font-family: 'Modern Antiqua';
+  	color: #fff;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.group-parent {
+  	position: absolute;
+  	top: 1031px;
+  	left: 28px;
+  	width: 319px;
+  	height: 35px;
+  	flex-shrink: 0;
+  	font-size: 13.52px;
+  	color: #a08585;
+}
+.company-wrapper {
+  	position: absolute;
+  	top: 15px;
+  	left: 0px;
+  	width: 319px;
+  	height: 20px;
+}
+.company {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 319px;
+  	display: flex;
+  	align-items: center;
+}
+.pampanga-state-university {
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 145%;
+  	font-weight: 600;
+}
+.group-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 13px;
+  	width: 293.6px;
+  	height: 14.6px;
+  	text-align: left;
+  	font-size: 9.8px;
+  	color: rgba(160, 133, 133, 0.75);
+}
+.learn-more-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 293.6px;
+  	height: 14.6px;
+}
+.learn-more {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 145%;
+  	font-weight: 500;
+}
+.support {
+  	position: absolute;
+  	top: 0px;
+  	left: 67.99px;
+  	line-height: 145%;
+  	font-weight: 500;
+}
+.terms-and-conditions {
+  	position: absolute;
+  	top: 0.61px;
+  	left: 121.89px;
+  	line-height: 145%;
+  	font-weight: 500;
+}
+.privacy-policy {
+  	position: absolute;
+  	top: 0px;
+  	left: 234.59px;
+  	line-height: 145%;
+  	font-weight: 500;
+}
+.company-parent {
+  	position: absolute;
+  	bottom: 180px;
+  	left: 550px;
+  	width: 1262px;
+  	height: 29px;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	color: #000;
+}
+.company2 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+}
+.learn-more-group {
+  	position: absolute;
+  	top: 3px;
+  	left: 782px;
+  	width: 480px;
+  	height: 24px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: rgba(0, 0, 0, 0.75);
+}
+.support2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 111px;
+  	line-height: 145%;
+  	font-weight: 500;
+}
+.terms-and-conditions2 {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 199px;
+  	line-height: 145%;
+  	font-weight: 500;
+  	color: rgba(160, 133, 133, 0.75);
+}
+.privacy-policy2 {
+  	position: absolute;
+  	bottom: 1px;
+  	left: 383px;
+  	line-height: 145%;
+  	font-weight: 500;
+  	color: rgba(160, 133, 133, 0.75);
+}
+

@@ -1,0 +1,327 @@
+.desktop {
+  	width: 100%;
+  	height: 712px;
+  	position: relative;
+  	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
+  	overflow-y: auto;
+  	text-align: center;
+  	font-size: 20px;
+  	color: #000;
+  	font-family: Lato;
+}
+.desktop-child {
+  	position: absolute;
+  	top: 0px;
+  	left: -397px;
+  	width: 1734px;
+  	height: 1156px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.footer-2 {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	height: 100px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 64px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	flex-shrink: 0;
+}
+.pampanga-state-u-logo-small-1-icon {
+  	width: 57px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.text {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 32px;
+}
+.company {
+  	display: flex;
+  	align-items: center;
+}
+.pampanga-state-university {
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 145%;
+  	font-weight: 600;
+}
+.nav {
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 32px;
+  	text-align: left;
+  	font-size: 16px;
+  	color: rgba(0, 0, 0, 0.55);
+}
+.learn-more {
+  	position: relative;
+  	line-height: 145%;
+  	font-weight: 500;
+}
+.social-links {
+  	width: 81px;
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+.social-link-1 {
+  	height: 24px;
+  	width: 24px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.social-link-2 {
+  	width: 33px;
+  	position: relative;
+  	max-height: 100%;
+  	flex-shrink: 0;
+}
+.social-link-3 {
+  	height: 24px;
+  	width: 24px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.sign-up-parent {
+  	position: absolute;
+  	top: 74px;
+  	left: calc(50% - 297px);
+  	backdrop-filter: blur(17.79px);
+  	border-radius: 28.46px;
+  	background: rgba(238, 179, 26, 0.13) padding-box, linear-gradient(135.59deg, #541616, #d36464) border-box;
+  	border: 2.1px solid transparent;
+  	box-sizing: border-box;
+  	width: 593px;
+  	height: 538px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 13px;
+  	color: #fff;
+}
+.sign-up {
+  	position: absolute;
+  	top: 39px;
+  	left: 23px;
+  	font-size: 48px;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.register-wrapper {
+  	position: absolute;
+  	bottom: 34px;
+  	left: calc(50% - 124.5px);
+  	border-radius: 7.11px;
+  	background-color: #bb0409;
+  	width: 250px;
+  	height: 40px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 0px;
+  	box-sizing: border-box;
+  	flex-shrink: 0;
+  	font-size: 16px;
+}
+.register {
+  	position: relative;
+  	font-weight: 600;
+  	flex-shrink: 0;
+}
+.group-parent {
+  	position: absolute;
+  	top: 117px;
+  	left: 311px;
+  	width: 251px;
+  	height: 198px;
+  	flex-shrink: 0;
+}
+.frame-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 1px;
+  	width: 250px;
+  	height: 128px;
+}
+.email-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.email {
+  	position: relative;
+}
+.pampangastateueduph-parent {
+  	width: 250px;
+  	height: 32px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 0.7px solid #bcbec0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 16px;
+  	gap: 10px;
+  	color: #bcbec0;
+}
+.pampangastateueduph {
+  	position: relative;
+  	flex-shrink: 0;
+}
+.frame-child {
+  	height: 100px;
+  	width: 100px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.frame-item {
+  	height: 100px;
+  	width: 100px;
+  	position: relative;
+  	background-color: #d9d9d9;
+  	flex-shrink: 0;
+}
+.password-parent {
+  	position: absolute;
+  	top: 72px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.password-group {
+  	width: 250px;
+  	height: 32px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 0.7px solid #bcbec0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 16px;
+  	gap: 20px;
+  	color: #bcbec0;
+}
+.clarityeye-hide-line-icon {
+  	height: 11.4px;
+  	width: 11.4px;
+  	position: relative;
+  	border-radius: 28.46px;
+  	flex-shrink: 0;
+}
+.confirm-password-parent {
+  	position: absolute;
+  	top: 142px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.group-wrapper {
+  	position: absolute;
+  	top: 116px;
+  	left: 28px;
+  	width: 250px;
+  	height: 56px;
+  	flex-shrink: 0;
+  	font-family: '42dot Sans';
+}
+.frame-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 250px;
+  	height: 56px;
+}
+.group-container {
+  	position: absolute;
+  	top: 189px;
+  	left: 28px;
+  	width: 250px;
+  	height: 56px;
+  	flex-shrink: 0;
+}
+.group-frame {
+  	position: absolute;
+  	top: 116px;
+  	left: 28px;
+  	width: 250px;
+  	height: 56px;
+  	flex-shrink: 0;
+}
+.first {
+  	width: 68px;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+}
+.group-wrapper2 {
+  	position: absolute;
+  	top: 259px;
+  	left: 28px;
+  	width: 250px;
+  	height: 56px;
+  	flex-shrink: 0;
+}
+.group-parent2 {
+  	position: absolute;
+  	top: 334px;
+  	left: 28px;
+  	width: 534px;
+  	height: 56px;
+  	flex-shrink: 0;
+}
+.frame-wrapper3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 155px;
+  	height: 56px;
+}
+.pampangastateueduph-parent4 {
+  	width: 155px;
+  	height: 32px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 0.7px solid #bcbec0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 16px;
+  	gap: 10px;
+  	color: #bcbec0;
+}
+.group-wrapper3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 284px;
+  	width: 250px;
+  	height: 56px;
+}
+
