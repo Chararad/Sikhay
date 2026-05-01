@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	line-height: auto;
+	min-height: 100vh;
+}
+.desktop {
+  	width: 100%;
+  	min-height: 100vh;
+  	position: relative;
+  	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
+  	overflow-y: auto;
+  	text-align: center;
+  	font-size: 20px;
+  	color: #000;
+  	font-family: Lato;
+}
+.desktop-child {
+  	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	opacity: 20%;
+}
+
+.reset-password-parent {
+  	position: absolute;
+  	top: 150px;
+  	left: calc(50% - 297px);
+    border-radius: 28.46px;
+    width: 593px;
+  	height: 479px;
+    
+    background: 
+        linear-gradient(rgba(238, 179, 26, 0.13),rgba(238, 179, 26, 0.13)) padding-box, 
+        linear-gradient(135.59deg, #541616, #d36464) border-box;
+  	border: 2.1px solid transparent;
+    backdrop-filter: blur(17.79px);
+    
+  	/*backdrop-filter: blur(17.79px);
+  	background: rgba(238, 179, 26, 0.13) padding-box, linear-gradient(135.59deg, #541616, #d36464) border-box;
+  	border: 2.1px solid transparent;*/
+
+    overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 48px;
+  	color: #fff;
+}
+
+.reset-password {
+  	position: absolute;
+  	width: calc(100% - 52px);
+  	top: 62px;
+  	left: 26px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 344px;
+  	left: 113px;
+  	width: 367px;
+  	height: 72px;
+  	font-size: 24px;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 0px 9px 14px rgba(255, 141, 77, 0.2);
+  	border-radius: 50px;
+  	background: linear-gradient(180deg, #bb043f, #980000);
+  	width: 367px;
+  	height: 72px;
+}
+.confirm {
+  	position: absolute;
+  	top: 21px;
+  	left: 140px;
+}
+
+.group-parent {
+  	position: absolute;
+  	top: 160px;
+  	left: calc(50% - 124.5px);
+  	width: 250px;
+  	height: 124px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 13px;
+}
+.frame-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 250px;
+  	height: 62.2px;
+}
+.group-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 31px;
+  	height: 17.4px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.new-password-parent {
+  	position: absolute;
+  	top: 1.38px;
+  	left: 0px;
+  	height: 60.8px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.new-password {
+  	position: relative;
+}
+.password-parent {
+  	width: 250px;
+  	height: 32px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	border: 0.7px solid #bcbec0;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 16px;
+  	gap: 20px;
+  	color: #bcbec0;
+}
+.password {
+  	position: relative;
+  	flex-shrink: 0;
+}
+
+
+.clarityeye-hide-line-icon {
+  	height: 11.4px;
+  	width: 11.4px;
+  	position: relative;
+  	border-radius: 28.46px;
+  	flex-shrink: 0;
+}
+.confirm-password-parent {
+  	position: absolute;
+  	top: 68px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
