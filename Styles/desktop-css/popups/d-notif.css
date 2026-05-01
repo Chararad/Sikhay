@@ -1,0 +1,147 @@
+.notifications-popup {
+  	width: 100%;
+  	height: 422.5px;
+  	position: relative;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 17.21px;
+  	color: #000;
+  	font-family: 'Modern Antiqua';
+}
+.notifications-popup-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 7.5px 7.5px;
+  	background-color: #f9eed3;
+  	width: 253px;
+  	height: 422.5px;
+  	flex-shrink: 0;
+}
+.notifications {
+  	position: absolute;
+  	top: 10.33px;
+  	left: 12.91px;
+  	flex-shrink: 0;
+}
+.frame-parent {
+  	position: absolute;
+  	top: 35.28px;
+  	left: 0px;
+  	width: 253px;
+  	height: 444px;
+  	flex-shrink: 0;
+  	font-size: 10.33px;
+  	font-family: Lato;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 253px;
+  	height: 74px;
+}
+.frame-child {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: rgba(238, 160, 26, 0.28);
+  	height: 74px;
+}
+.unsplashydoehmfa4mu-icon {
+  	position: absolute;
+  	top: 9.47px;
+  	left: 12.91px;
+  	box-shadow: 0px 1.7210884094238281px 0px rgba(0, 0, 0, 0.12);
+  	border-radius: 50%;
+  	width: 55.9px;
+  	height: 55.9px;
+  	object-fit: cover;
+}
+.lorem-ipsum-dolor {
+  	position: absolute;
+  	top: 13.77px;
+  	left: 79.17px;
+  	display: inline-block;
+  	width: 150.6px;
+  	height: 33.6px;
+}
+.m-ago {
+  	position: absolute;
+  	top: 38.72px;
+  	left: 79.17px;
+  	font-weight: 500;
+  	color: #6c6c6c;
+}
+.rectangle-group {
+  	position: absolute;
+  	width: 100%;
+  	top: 74.01px;
+  	right: 0px;
+  	left: 0px;
+  	height: 74px;
+}
+.rectangle-container {
+  	position: absolute;
+  	width: 100%;
+  	top: 148.01px;
+  	right: 0px;
+  	left: 0px;
+  	height: 74px;
+}
+.frame-inner {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: rgba(238, 160, 26, 0);
+  	height: 74px;
+}
+.frame-div {
+  	position: absolute;
+  	width: 100%;
+  	top: 222.02px;
+  	right: 0px;
+  	left: 0px;
+  	height: 74px;
+}
+.rectangle-parent2 {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: 73.97px;
+  	left: 0px;
+  	height: 74px;
+}
+.rectangle-parent3 {
+  	position: absolute;
+  	width: 100%;
+  	top: 370.03px;
+  	right: 0px;
+  	left: 0px;
+  	height: 74px;
+}
+.scrollbar-custom {
+  	position: absolute;
+  	height: calc(100% - 52.5px);
+  	top: 35.28px;
+  	right: 0px;
+  	bottom: 17.22px;
+  	border-radius: 50.34px;
+  	background-color: #e8e8e8;
+  	width: 4.3px;
+  	flex-shrink: 0;
+}
+.bar {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 2.16px);
+  	border-radius: 50.34px;
+  	background-color: #541616;
+  	width: 4px;
+  	height: 16.6px;
+}
+

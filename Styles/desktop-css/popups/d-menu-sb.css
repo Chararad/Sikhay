@@ -1,0 +1,374 @@
+.menucollapse3-parent {
+  	width: 280px;
+  	height: 713px;
+  	position: relative;
+  	max-width: 90%;
+  	max-height: 90%;
+  	overflow: auto;
+  	text-align: left;
+  	font-size: 14px;
+  	color: #131313;
+  	font-family: Lato;
+}
+.menucollapse3 {
+  	position: absolute;
+  	top: 56px;
+  	left: 0px;
+  	width: 280px;
+  	height: 657px;
+}
+.menucollapse3-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 5px 10px 8.2px rgba(0, 0, 0, 0.25) inset;
+  	border-radius: 0px 0px 10px 10px;
+  	background-color: #eeb31a;
+}
+.items {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	height: 626px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 8px;
+  	box-sizing: border-box;
+  	gap: 8px;
+}
+.search2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 0px 12px 12px;
+  	color: #7d7d7d;
+}
+.bar {
+  	align-self: stretch;
+  	border-radius: 20px;
+  	background-color: #fff;
+  	border: 1px solid #f1f1f1;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 16px;
+  	gap: 8px;
+}
+.icon-from-tablerio {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.vector-icon4 {
+  	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.search3 {
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	line-height: 14px;
+}
+.sidebar-item-01 {
+  	width: 100%;
+  	border-radius: 24px;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	min-width: 264px;
+  	max-width: 320px;
+}
+.sidebar-item {
+  	flex: 1;
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	line-height: 14px;
+}
+.vector-icon6 {
+  	position: absolute;
+  	height: 75%;
+  	width: 58.13%;
+  	top: 12.5%;
+  	right: 21.04%;
+  	bottom: 12.5%;
+  	left: 20.83%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.icon-from-tablerio4 {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: grid;
+  	grid-template-columns: repeat(1, 2px);
+  	justify-content: start;
+  	grid-template-rows: repeat(1, 2px);
+  	align-content: start;
+  	gap: 8px;
+}
+.vector-icon8 {
+  	position: absolute;
+  	height: 66.88%;
+  	width: 75%;
+  	top: 16.58%;
+  	right: 12.5%;
+  	bottom: 16.55%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.sidebar-item-05 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	min-width: 264px;
+  	font-family: Inter;
+}
+.sidebar-item5 {
+  	height: 41px;
+  	flex: 1;
+  	border-radius: 24px;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 12px;
+  	min-width: 264px;
+  	max-width: 320px;
+}
+.icon-from-tablerio6 {
+  	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 0;
+}
+.manage-users {
+  	flex: 1;
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	line-height: 14px;
+  	z-index: 1;
+}
+.closed {
+  	height: 16px;
+  	width: 16px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 12.5px;
+  	left: 228px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 2;
+}
+.vector-icon10 {
+  	position: absolute;
+  	height: 25%;
+  	width: 50%;
+  	top: 37.5%;
+  	right: 25%;
+  	bottom: 37.5%;
+  	left: 25%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.user {
+  	position: absolute;
+  	width: 100%;
+  	top: 477px;
+  	right: 0px;
+  	left: 0px;
+  	height: 180px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 16px 8px 24px;
+  	box-sizing: border-box;
+  	gap: 12px;
+}
+.info {
+  	align-self: stretch;
+  	height: 40px;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 20px;
+  	box-sizing: border-box;
+  	gap: 12px;
+}
+.avatar-icon {
+  	height: 32px;
+  	width: 32px;
+  	position: relative;
+  	object-fit: cover;
+}
+.username-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 4px;
+}
+.username7 {
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	font-weight: 500;
+}
+.tag10 {
+  	border-radius: 24px;
+  	background-color: #ffcd71;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 6px;
+  	font-size: 10px;
+}
+.admin {
+  	position: relative;
+  	letter-spacing: -0.5px;
+  	line-height: 16px;
+}
+.sidebar-item-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 2px;
+}
+.vector-icon11 {
+  	position: absolute;
+  	height: 83.13%;
+  	width: 75%;
+  	top: 8.33%;
+  	right: 12.5%;
+  	bottom: 8.54%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.sidebar-item8 {
+  	width: 100%;
+  	border-radius: 24px;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	min-width: 264px;
+  	max-width: 320px;
+  	color: #b01212;
+}
+.vector-icon12 {
+  	position: absolute;
+  	height: 66.88%;
+  	width: 75%;
+  	top: 16.67%;
+  	right: 12.5%;
+  	bottom: 16.46%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.menu {
+  	position: absolute;
+  	bottom: 657px;
+  	left: 0px;
+  	width: 280px;
+  	height: 56px;
+  	font-size: 36px;
+  	font-family: 'Modern Antiqua';
+}
+.hammenu {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: #eeb31a;
+  	height: 56px;
+}
+.navigationsyt-buttonicon-group {
+  	position: absolute;
+  	height: calc(100% - 16px);
+  	top: 8px;
+  	bottom: 8px;
+  	left: 20px;
+  	width: 229px;
+}
+.navigationsyt-buttonicon2 {
+  	position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 8px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+}
+.hamburger-icon2 {
+  	height: 24px;
+  	width: 24px;
+  	position: relative;
+}
+.group-child16 {
+  	position: absolute;
+  	height: calc(100% - 5px);
+  	top: 3px;
+  	bottom: 2px;
+  	left: 51px;
+  	border-radius: 50%;
+  	background-color: #d9d9d9;
+  	width: 35px;
+}
+.sikhay-container {
+  	position: absolute;
+  	height: calc(100% - 6px);
+  	top: 6px;
+  	bottom: 0px;
+  	left: 93px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.sikhay2 {
+  	position: relative;
+  	line-height: 94%;
+  	background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 12px 4px 12.3px rgba(0, 0, 0, 0.25);
+}
+

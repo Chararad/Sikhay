@@ -2,3 +2,10 @@ body {
   	margin: 0;
   	line-height: normal;
 }
+
+.popup-overlay { /*for menu sidebar i think*/
+display: flex;
+flex-direction: column;
+position: fixed;
+inset: 0;
+}
