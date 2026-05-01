@@ -76,7 +76,7 @@ html, body {
    transform: translateX(-50%);
    width: 100%;
    font-size: 14px;
-   color: rgba(160, 133, 133, 0.75);
+   color: rgba(243, 233, 233, 0.712);
    white-space: nowrap;
    display: flex;
    justify-content: center;
@@ -87,6 +87,7 @@ html, body {
 
 .company2 {
    display: inline;
+   font-weight: 600;
 }
 
 .learn-more-group {
