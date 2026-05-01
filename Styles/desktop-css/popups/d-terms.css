@@ -21,6 +21,15 @@
   	max-height: 100%;
   	flex-shrink: 0;
 }
+.menu-close-md {
+  	position: absolute;
+  	top: 9px;
+  	right: 12px;
+  	border-radius: 15.03px;
+  	width: 31px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
 .vector-icon {
   	position: absolute;
   	height: 5.56%;

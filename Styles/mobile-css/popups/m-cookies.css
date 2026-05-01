@@ -75,4 +75,12 @@
   	line-height: 20.45px;
   	font-weight: 900;
 }
+.menu-close-md {
+  	position: absolute;
+  	top: 11px;
+  	right: 10px;
+  	border-radius: 15.03px;
+  	width: 17px;
+  	height: 17px;
+}
 

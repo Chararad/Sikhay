@@ -20,6 +20,14 @@
   	border: 3px solid #541616;
   	box-sizing: border-box;
 }
+.menu-close-md {
+  	position: absolute;
+  	top: 9px;
+  	right: 10px;
+  	border-radius: 15.03px;
+  	width: 18px;
+  	height: 18px;
+}
 .m-tos-privacy-item {
   	position: absolute;
   	width: calc(100% - 29px);
