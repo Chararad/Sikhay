@@ -17,100 +17,64 @@
     		<img src="Assets/Don-Honorio-Ventura-State-University_8b0167a5305778d81713f6e47ec6de10.jpg" class="desktop-child" alt="">
     		
     		<div class="footer-2">
-      			<img class="pampanga-state-u-logo-small-1-icon" alt="">
+      			<img src="Assets/pampanga-state-u-logo-small.webp" class="pampanga-state-u-logo-small-1-icon" alt="">
       			
       			<div class="text">
         				<div class="company">
           					<div class="pampanga-state-university">© 2026 Pampanga State University. All Rights Reserved. </div>
         				</div>
         				<div class="nav">
-          					<div class="learn-more">Learn more</div>
-          					<div class="learn-more">Support</div>
+          					<div class="learn-more"><a href="#">Learn more</a></div>
+          					<div class="learn-more"><a href="#">Support</a></div>
         				</div>
       			</div>
       			<div class="social-links">
-        				<img class="social-link-1" alt="">
+						<a href="#">
+							<img src="Assets/facebook.svg" class="social-link-1" alt="">
+						</a>
         				
-        				<img class="social-link-2" alt="">
-        				
+        				<a href="#">
+							<img src="Assets/youtube.svg" class="social-link-2" alt="">
+						</a>
         				<div class="social-link-3">
         				</div>
       			</div>
     		</div>
     		<div class="sign-up-parent">
       			<div class="sign-up">Sign up</div>
-      			<div class="register-wrapper">
+      			<button class="register-wrapper">
         				<div class="register">Register</div>
-      			</div>
+      			</button>
       			<div class="group-parent">
         				<div class="frame-parent">
           					<div class="email-parent">
             						<div class="email">Email</div>
-            						<div class="pampangastateueduph-parent">
-              							<div class="pampangastateueduph">username@pampangastateu.edu.ph</div>
-              							<div class="frame-child">
-              							</div>
-              							<div class="frame-item">
-              							</div>
-            						</div>
+            						<input type="email" class="pampangastateueduph-parent" placeholder="username@pampangastateu.edu.ph" required>
           					</div>
           					<div class="password-parent">
             						<div class="email">Password</div>
-            						<div class="password-group">
-              							<div class="pampangastateueduph">Password</div>
-              							<img class="clarityeye-hide-line-icon" alt="">
-              							
-            						</div>
+            						<input type="password" class="password-group" placeholder="Password">
           					</div>
         				</div>
         				<div class="confirm-password-parent">
           					<div class="email">Confirm Password</div>
-          					<div class="password-group">
-            						<div class="pampangastateueduph">Confirm Password</div>
-            						<img class="clarityeye-hide-line-icon" alt="">
-            						
-          					</div>
-        				</div>
-      			</div>
-      			<div class="group-wrapper">
-        				<div class="frame-wrapper">
-          					<div class="email-parent">
-            						<div class="email">First Name</div>
-            						<div class="pampangastateueduph-parent">
-              							<div class="pampangastateueduph">username@pampangastateu.edu.ph</div>
-              							<div class="frame-child">
-              							</div>
-              							<div class="frame-item">
-              							</div>
-            						</div>
-          					</div>
+          					<input type="password" class="password-group" placeholder="Confirm Password">
+          					
         				</div>
       			</div>
       			<div class="group-container">
         				<div class="frame-wrapper">
           					<div class="email-parent">
             						<div class="email">Middle Name</div>
-            						<div class="pampangastateueduph-parent">
-              							<div class="pampangastateueduph">Enter your middle name</div>
-              							<div class="frame-child">
-              							</div>
-              							<div class="frame-item">
-              							</div>
-            						</div>
+            						<input type="text" class="pampangastateueduph-parent" placeholder="Enter Your Middle Name">
           					</div>
         				</div>
       			</div>
       			<div class="group-frame">
         				<div class="frame-wrapper">
           					<div class="email-parent">
-            						<div class="first">First </div>
-            						<div class="pampangastateueduph-parent">
-              							<div class="pampangastateueduph">Enter your first name</div>
-              							<div class="frame-child">
-              							</div>
-              							<div class="frame-item">
-              							</div>
-            						</div>
+            						<div class="first">First Name </div>
+            						<input type="text" class="pampangastateueduph-parent" placeholder="Enter Your First Name" required>
           					</div>
         				</div>
       			</div>
@@ -118,13 +82,7 @@
         				<div class="frame-wrapper">
           					<div class="email-parent">
             						<div class="email">Last Name</div>
-            						<div class="pampangastateueduph-parent">
-              							<div class="pampangastateueduph">Enter your last name</div>
-              							<div class="frame-child">
-              							</div>
-              							<div class="frame-item">
-              							</div>
-            						</div>
+            						<input type="text" class="pampangastateueduph-parent" placeholder="Enter Your Last Name" required>
           					</div>
         				</div>
       			</div>
@@ -132,26 +90,21 @@
         				<div class="frame-wrapper3">
           					<div class="email-parent">
             						<div class="email">Sex</div>
-            						<div class="pampangastateueduph-parent4">
-              							<div class="pampangastateueduph">Sex</div>
-              							<div class="frame-child">
-              							</div>
-              							<div class="frame-item">
-              							</div>
-            						</div>
+            						<select id="sex" name="sex" class="pampangastateueduph-parent4">
+              							<option value="" disabled selected>Sex</option>
+										<option value="m">Male</option>
+										<option value="f">Female</option>
+            						</select>
           					</div>
         				</div>
         				<div class="group-wrapper3">
           					<div class="frame-wrapper">
             						<div class="email-parent">
               							<div class="email">Campus</div>
-              							<div class="pampangastateueduph-parent">
-                								<div class="pampangastateueduph">Choose your campus</div>
-                								<div class="frame-child">
-                								</div>
-                								<div class="frame-item">
-                								</div>
-              							</div>
+              							<select id="campus" name="campus" class="pampangastateueduph-parent">
+                								<option value="" disabled selected>Campus</option>
+												<option value="Main">Main Campus</option>
+              							</select>
             						</div>
           					</div>
         				</div>
