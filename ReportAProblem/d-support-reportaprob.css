@@ -1,3 +1,4 @@
+
 body{
 	margin: 0;
 	line-height: normal;
@@ -102,11 +103,12 @@ body{
   	isolation: isolate;
   	color: #aaa;
   	font-family: Poppins;
+	background-color: yellow;
 }
 .header {
   	align-self: stretch;
   	border-radius: 15.29px;
-  	background-color: #f1f1f1;
+  	background-color: red;
   	border: 2.5px solid #b8bbc2;
   	display: flex;
   	align-items: center;
@@ -127,6 +129,7 @@ body{
   	font-weight: 500;
 }
 .iconsregularchevron-down-s {
+	border: 7px blue;
   	height: 38.2px;
   	width: 38.2px;
   	position: relative;
@@ -344,6 +347,7 @@ body{
   	height: 195px;
 }
 .rectangle-parent {
+
   	position: absolute;
   	top: 892px;
   	left: 425px;
@@ -358,7 +362,7 @@ body{
   	top: 0px;
   	left: 0px;
   	border-radius: 34.57px;
-  	background-color: #832c2c;
+  	background-color: red;
   	width: 427.2px;
   	height: 96.2px;
 }
@@ -532,16 +536,15 @@ body{
   	bottom: 6px;
   	left: -0.2px;
   	border-radius: 9px;
-  	background-color: #fff;
+  	background-color: white;
 }
 .navigationssearchbox2 {
   	position: absolute;
   	width: calc(100% - 64px);
   	top: 0px;
   	right: 63.5px;
-  	left: 0.5px;
-  	border-radius: 2px 0px 0px 2px;
-  	height: 40px;
+  	border-radius: 9px 0px 0px 9px;
+  	height: 100%;
   	overflow: hidden;
   	flex-shrink: 0;
 }
@@ -949,7 +952,6 @@ body{
   	height: 24px;
   	width: 24px;
   	position: absolute;
-  	margin: 0 !important;
   	top: calc(50% - 12px);
   	left: calc(50% - 12.5px);
   	overflow: hidden;
