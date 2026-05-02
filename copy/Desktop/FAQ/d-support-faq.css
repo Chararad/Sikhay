@@ -1,13 +1,14 @@
 body{
-	margin: 0%;
+	margin: 0;
 	line-height: normal;
 	overflow: hidden;
-	min-width: 1500px;
+  height: 100vh;
 }
 /* Desktop container */
 .desktop {
+  min-width: 1200px;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   position: relative;
   background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
   overflow-y: auto;
@@ -15,7 +16,6 @@ body{
   font-size: 20px;
   color: #aaa;
   font-family: Lato;
-  height: 100vh;
 }
 
 /* Main heading */
@@ -167,66 +167,7 @@ body{
   flex-shrink: 0;
 }
 
-/* Reports card container */
-.desktop-inner {
-  position: absolute;
-  top: 376px;
-  left: 381px;
-  width: 215px;
-  height: 162px;
-  border: none;
-  border:  none !important;       
-  outline: none !important; 
-}
 
-/* Reports card wrapper */
-.group-wrapper {
-  position: absolute;
-  top: 0px;
-  left: 300px;
-  width: 215px;
-  height: 162px;
-  border:  none !important;       
-  outline: none !important; 
-}
-/* Reports card background */
-.group-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
-  	border-radius: 10px;
-  	width: 215px;
-  	height: 148px;
-    background-color:#eeb31a;     
-}
-/* Reports title text */
-.reports {
-  	position: absolute;
-  	top: 118px;
-  	left: 21px;
-  	font-weight: 800;
-  	background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	display: inline-block;
-  	width: 173px;
-  	height: 44px;     
-}
-
-/* Reports icon */
-.icon {
-  	position: absolute;
-  	height: 43.83%;
-  	width: 38.14%;
-  	top: 14.2%;
-  	right: 30.7%;
-  	bottom: 41.98%;
-  	left: 31.16%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
-}
 /* Secondary heading */
 .hi-how-can2 {
   	position: absolute;
@@ -274,26 +215,104 @@ body{
   	overflow: hidden;
   	flex-shrink: 0;
 }
-/* Shared resources card container */
-.group-parent {
-  	position: absolute;
-  	top: 376px;
-  	left: 1300px;
-  	width: 215px;
-  	height: 160px;
-    
+
+/*Reconstructed Cards*/
+.box-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 376px;
+  gap: 100px;
 }
-/* Shared resources card wrapper */
-.rectangle-group {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 215px;
-  	height: 160px;
-    
+
+.account-container{
+  width: 215px;
+  height: 162px;
 }
-/* Shared resources card title */
-.shared-resources {
+
+.report-container{
+  width: 215px;
+  height: 162px;
+}
+
+.shared-resources-container{
+  width: 215px;
+  height: 162px;
+}
+
+.features-container{
+  width: 215px;
+  height: 162px;
+}
+
+.account-wrapper{
+  position: absolute;
+  width: 215px;
+  height: 162px;
+}
+
+.report-wrapper{
+  position: absolute;
+  width: 215px;
+  height: 162px;
+}
+
+.shared-resources-wrapper{
+  position: absolute;
+  width: 215px;
+  height: 162px;
+}
+
+.features-wrapper{
+  position: absolute;
+  width: 215px;
+  height: 162px;
+}
+
+.account-div{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #eeb31a;
+  width: 215px;
+  height: 148px;
+}
+
+.report-div{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #eeb31a;
+  width: 215px;
+  height: 148px;
+}
+
+.shared-resources-div{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #eeb31a;
+  width: 215px;
+  height: 148px;
+}
+
+.features-div{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background-color: #eeb31a;
+  width: 215px;
+  height: 148px;
+}
+
+.account-Name{
   position: absolute;
   top: 116px;
   left: 21px;
@@ -304,11 +323,48 @@ body{
   display: inline-block;
   width: 173px;
   height: 44px;
-  
 }
 
-/* Shared resources icon */
-.icon2 {
+.report-Name{
+  position: absolute;
+  top: 116px;
+  left: 21px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 173px;
+  height: 44px;
+}
+
+.shared-resources-Name{
+  position: absolute;
+  top: 116px;
+  left: 21px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 173px;
+  height: 44px;
+}
+
+.features-Name{
+  position: absolute;
+  top: 116px;
+  left: 21px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 173px;
+  height: 44px;
+}
+
+.account-icon{
   position: absolute;
   height: 46.88%;
   width: 39.07%;
@@ -319,205 +375,48 @@ body{
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-  
 }
 
-/* Features card container */
-.group-container {
+.report-icon{
   position: absolute;
-  top: 376px;
-  right: 680px;
-  width: 215px;
-  height: 158px;
-}
-
-/* Features card wrapper */
-.rectangle-container {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 215px;
-  height: 158px;
-}
-
-/* Features card background */
-.group-inner {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
-  border-radius: 10px;
-  background-color: #eeb31a;
-  width: 215px;
-  height: 148px;
-}
-
-/* Features title text */
-.features {
-  position: absolute;
-  top: 114px;
-  left: 25px;
-  font-weight: 800;
-  background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  width: 173px;
-  height: 44px;
-}
-
-/* Features icon */
-.comercialbox-fav-icon {
-  position: absolute;
-  top: 12px;
-  left: 66px;
-  width: 100px;
-  height: 99px;
-}
-
-/* Account card container */
-.group-div {
-  position: absolute;
-  top: 376px;
-  left: 670px;
-  width: 215px;
-  height: 164px;
-}
-
-/* Account card wrapper */
-.rectangle-parent2 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 215px;
-  height: 164px;
-}
-
-/* Account card background */
-.rectangle-div {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.75);
-  border-radius: 10px;
-  background-color: #eeb31a;
-  width: 215px;
-  height: 148px;
-}
-
-/* Account title text */
-.account {
-  position: absolute;
-  top: 120px;
-  left: 17px;
-  font-weight: 800;
-  background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  width: 173px;
-  height: 44px;
-}
-
-/* Account icon */
-.icon3 {
-  position: absolute;
-  height: 51.22%;
-  width: 33.02%;
-  top: 12.2%;
-  right: 50%;
-  bottom: 36.59%;
-  left: 31.63%;
+  height: 46.88%;
+  width: 39.07%;
+  top: 14.38%;
+  right: 30.23%;
+  bottom: 38.75%;
+  left: 30.7%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
 
-/* Hidden group parent (unused) */
-.group-parent2 {
+.shared-resources-icon{
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 0px;
-  height: 0px;
-  color: #541616;
-  font-family: Righteous;
+  height: 46.88%;
+  width: 39.07%;
+  top: 14.38%;
+  right: 30.23%;
+  bottom: 38.75%;
+  left: 30.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 
-/* Hidden reports card */
-.group-parent3 {
+.features-icon{
   position: absolute;
-  top: 447px;
-  left: 237px;
-  width: 215px;
-  height: 164px;
-  display: none;
-  flex-shrink: 0;
-  font-size: 10.79px;
-  font-family: Lato;
+  height: 46.88%;
+  width: 39.07%;
+  top: 14.38%;
+  right: 30.23%;
+  bottom: 38.75%;
+  left: 30.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 
-/* Hidden group frame */
-.group-frame {
-  position: absolute;
-  top: 391px;
-  left: 74px;
-  width: 215px;
-  height: 162px;
-  display: none;
-  flex-shrink: 0;
-}
-
-/* Hidden reports title */
-.reports2 {
-  position: absolute;
-  top: 118px;
-  left: 21px;
-  display: inline-block;
-  width: 173px;
-  height: 44px;
-}
-
-/* Hidden features card */
-.group-parent4 {
-  position: absolute;
-  top: 407px;
-  width: 215px;
-  height: 158px;
-  display: none;
-  flex-shrink: 0;
-}
-
-/* Hidden features title */
-.features2 {
-  position: absolute;
-  top: 114px;
-  left: 25px;
-  display: inline-block;
-  width: 173px;
-  height: 44px;
-}
-
-/* Hidden shared resources card */
-.group-parent5 {
-  position: absolute;
-  top: 459px;
-  left: 143px;
-  width: 215px;
-  height: 160px;
-  display: none;
-  flex-shrink: 0;
-}
-
-/* Hidden shared resources title */
-.shared-resources2 {
-  position: absolute;
-  top: 116px;
-  left: 21px;
-  display: inline-block;
-  width: 173px;
-  height: 44px;
-}
+/*Reconstructed Cards*/
 
 /* FAQ heading */
 .faq {
@@ -573,9 +472,9 @@ body{
 /* Footer company section */
 .company-parent {
   position: absolute;
-  top: 1047px;
+  top: 95%;
   left: 9px;
-  width: 1262px;
+  width: 100vh;
   height: 29px;
   color: #000;
 }
@@ -601,10 +500,9 @@ body{
 .learn-more-parent {
   position: absolute;
   top: 3px;
-  left: 1670px;
+  left: 90%;
   width: 480px;
   height: 24px;
-  text-align: left;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.75);
   right: 90px;
