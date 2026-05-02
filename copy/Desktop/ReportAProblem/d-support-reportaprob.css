@@ -612,10 +612,6 @@ body{
     color: var(--text-dark);
             text-decoration: none;
             transition: opacity 0.2s;
-    .learn-more
-    .support
-    .terms-and-conditions
-    .privacy-policy;
 }
 
 /* "Learn more" link */
