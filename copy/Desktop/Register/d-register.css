@@ -350,3 +350,9 @@ body{
 input{
 	outline: none;
 }
+
+.text a{
+	color: var(--text-dark);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
