@@ -60,9 +60,8 @@ body{
   	
 }
 .thank-you-for {
-  	position: absolute;
   	width: 95%;
-	top: 10px;
+	margin: 10px;
   	max-width: 1440px;
   	font-size: 35px;
   	line-height: 100%;
@@ -116,9 +115,8 @@ body{
   	
 }
 .thank-you-for2 {
-  	position: absolute;
   	width: 95%;
-	top: 10px;
+	margin: 10px;
   	max-width: 1440px;
   	font-size: 35px;
   	line-height: 94%;
