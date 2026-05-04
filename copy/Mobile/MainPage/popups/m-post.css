@@ -1,0 +1,205 @@
+.m-post-pop-up {
+  	width: 100%;
+  	height: 795px;
+  	position: relative;
+  	border-radius: 20px;
+  	background-color: #f9eed3;
+  	border: 3px solid #541616;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 24px;
+  	color: rgba(0, 0, 0, 0.36);
+  	font-family: Lato;
+}
+.m-post-pop-up-child {
+  	position: absolute;
+  	width: calc(100% - 26px);
+  	top: 63.5px;
+  	right: 13.5px;
+  	left: 12.5px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.4);
+  	box-sizing: border-box;
+  	height: 1px;
+}
+.create-post {
+  	position: absolute;
+  	top: 25px;
+  	left: 26px;
+  	line-height: 94%;
+  	font-family: 'Modern Antiqua';
+  	color: #000;
+}
+.m-post-pop-up-item {
+  	position: absolute;
+  	top: 79px;
+  	left: 28px;
+  	border-radius: 50%;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.username {
+  	position: absolute;
+  	top: 87px;
+  	left: 83px;
+  	font-size: 20px;
+  	color: #000;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 131px;
+  	left: 25px;
+  	width: 221px;
+  	height: 35px;
+  	font-size: 16px;
+  	color: rgba(255, 255, 255, 0.6);
+}
+.frame-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	border-radius: 32px;
+  	background-color: #832c2c;
+}
+.group-icon {
+  	position: absolute;
+  	height: 17.14%;
+  	width: 4.43%;
+  	top: 48.57%;
+  	right: 4.79%;
+  	bottom: 34.29%;
+  	left: 90.77%;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.select-section-required {
+  	position: absolute;
+  	top: 7px;
+  	left: 17px;
+}
+.frame-parent {
+  	position: absolute;
+  	width: calc(100% - 34px);
+  	top: 617px;
+  	right: 19px;
+  	left: 15px;
+  	height: 72px;
+  	font-size: 15px;
+  	color: rgba(255, 255, 255, 0.6);
+}
+.rectangle-group {
+  	position: absolute;
+  	bottom: 42px;
+  	left: 4px;
+  	width: 113px;
+  	height: 30px;
+}
+.add-topic-wrapper {
+  	position: absolute;
+  	top: 5px;
+  	left: 17px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.add-topic {
+  	position: relative;
+}
+.vector-icon {
+  	position: absolute;
+  	top: 10px;
+  	right: 13px;
+  	width: 8px;
+  	height: 8px;
+  	opacity: 0.61;
+}
+.rectangle-container {
+  	position: absolute;
+  	bottom: 42px;
+  	left: 127px;
+  	width: 113px;
+  	height: 30px;
+}
+.frame-div {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 65px;
+  	width: 113px;
+  	height: 30px;
+}
+.m-post-pop-up-inner {
+  	position: absolute;
+  	top: 260px;
+  	left: 28px;
+  	max-height: 100%;
+  	width: 231px;
+}
+.please-enter-title {
+  	position: absolute;
+  	top: 188px;
+  	left: 28px;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 201px;
+}
+.menu-close-md {
+  	position: absolute;
+  	top: 24px;
+  	right: 14px;
+  	border-radius: 16px;
+  	width: 20px;
+  	height: 20px;
+}
+.frame-icon {
+  	position: absolute;
+  	top: calc(50% + 2.5px);
+  	left: 26px;
+  	width: 224px;
+  	height: 203px;
+  	object-fit: contain;
+}
+.div {
+  	position: absolute;
+  	top: 241px;
+  	right: 103px;
+  	font-size: 14px;
+}
+.please-enter-description {
+  	position: absolute;
+  	top: 272px;
+  	left: 28px;
+  	font-size: 16px;
+}
+.rectangle-parent2 {
+  	position: absolute;
+  	bottom: 34px;
+  	left: 56px;
+  	width: 153px;
+  	height: 54px;
+  	color: rgba(0, 0, 0, 0.62);
+}
+.frame-child2 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	border-radius: 13px;
+  	background-color: #eeb31a;
+}
+.post {
+  	position: absolute;
+  	top: 13px;
+  	left: 52px;
+  	font-weight: 900;
+}
+
