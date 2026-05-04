@@ -6,15 +6,14 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
   background: #000;
-  min-width: 1288px;
   overflow-x: auto;
 }
 
 .desktop {
   position: relative;
-  width: 1288px;
+  width: 100%;
   margin: 0 auto;
-  min-height: 1088px;
+  min-height: 100vh;
   overflow: hidden;
   color: #fff;
   background-image: linear-gradient(164deg, #591117 0%, #6f141b 38%, #95322d 70%, #f0b61a 100%);
