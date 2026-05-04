@@ -1,0 +1,147 @@
+.notifications-popup {
+  	width: 100%;
+  	height: 626.3px;
+  	position: relative;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 25.51px;
+  	color: #000;
+  	font-family: 'Modern Antiqua';
+}
+.notifications-popup-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 0px 0px 11.11px 11.11px;
+  	background-color: #f9eed3;
+  	width: 375px;
+  	height: 626.3px;
+  	flex-shrink: 0;
+}
+.notifications {
+  	position: absolute;
+  	top: 15.31px;
+  	left: 19.13px;
+  	flex-shrink: 0;
+}
+.frame-parent {
+  	position: absolute;
+  	top: 52.3px;
+  	left: 0px;
+  	width: 375px;
+  	height: 658.2px;
+  	flex-shrink: 0;
+  	font-size: 15.31px;
+  	font-family: Lato;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 375px;
+  	height: 109.7px;
+}
+.frame-child {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: rgba(238, 160, 26, 0.28);
+  	height: 109.7px;
+}
+.unsplashydoehmfa4mu-icon {
+  	position: absolute;
+  	top: 14.03px;
+  	left: 19.13px;
+  	box-shadow: 0px 2.5510201454162598px 0px rgba(0, 0, 0, 0.12);
+  	border-radius: 50%;
+  	width: 82.9px;
+  	height: 82.9px;
+  	object-fit: cover;
+}
+.lorem-ipsum-dolor {
+  	position: absolute;
+  	top: 20.41px;
+  	left: 117.35px;
+  	display: inline-block;
+  	width: 223.2px;
+  	height: 49.7px;
+}
+.m-ago {
+  	position: absolute;
+  	top: 57.4px;
+  	left: 117.35px;
+  	font-weight: 500;
+  	color: #6c6c6c;
+}
+.rectangle-group {
+  	position: absolute;
+  	width: 100%;
+  	top: 109.69px;
+  	right: 0px;
+  	left: 0px;
+  	height: 109.7px;
+}
+.rectangle-container {
+  	position: absolute;
+  	width: 100%;
+  	top: 219.39px;
+  	right: 0px;
+  	left: 0px;
+  	height: 109.7px;
+}
+.frame-inner {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: rgba(238, 160, 26, 0);
+  	height: 109.7px;
+}
+.frame-div {
+  	position: absolute;
+  	width: 100%;
+  	top: 329.08px;
+  	right: 0px;
+  	left: 0px;
+  	height: 109.7px;
+}
+.rectangle-parent2 {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: 109.72px;
+  	left: 0px;
+  	height: 109.7px;
+}
+.rectangle-parent3 {
+  	position: absolute;
+  	width: 100%;
+  	top: 548.47px;
+  	right: 0px;
+  	left: 0px;
+  	height: 109.7px;
+}
+.scrollbar-custom {
+  	position: absolute;
+  	height: calc(100% - 77.8px);
+  	top: 52.3px;
+  	right: -0.02px;
+  	bottom: 25.5px;
+  	border-radius: 74.61px;
+  	background-color: #e8e8e8;
+  	width: 6.4px;
+  	flex-shrink: 0;
+}
+.bar {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 3.18px);
+  	border-radius: 74.61px;
+  	background-color: #541616;
+  	width: 6px;
+  	height: 24.6px;
+}
+
