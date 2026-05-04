@@ -1,241 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="/Styles/desktop-css/d-support-reportaprob.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report A Problem</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modern Antiqua:wght@400&display=swap" />
   	<link rel="stylesheet" href="d-support-reportaprob.css" />
-  	
-  	
+
 </head>
 <body>
-  	
-  	<div class="desktop">
-    		<b class="hi-how-can">Hi, How can we help you?</b>
-    		<div class="desktop-inner">
-      			<div class="frame-child">
-      			</div>
-    		</div>
+    <!--Main Background (Main Parent)-->
+    <div class="main-bg">
 
-    		<div class="report-a-problem">Report a Problem</div>
+        <!--Nav Bar-->
+        <div class="navigation">
+            <div class="navigation-left">
+                <div class="web-logo"></div>
+                <div class="sikhay-wrapper">
+                    <div class="sikhay">SIKHAY</div>
+                </div>
+            </div>
+        </div>
 
-    		<div class="desktop-child" ></div>
+        <div class="first-text">Report A Problem</div>
+        <div class="first-text-divider"></div>
 
-    		<div class="desktop-item" ></div>
+        <div class="report-details-container">
+            <b class="text2">Report Details</b>
 
-    		<b class="report-details">Report Details</b>
-    		<div class="dropdown-box">
+            <select class="type-of-report">
+                <option value="" id="type" name="type" selected disabled>Type of Report....</option>
+                <option value="profile">Profile</option>
+                <option value="website">Website</option>
+                <option value="user">Other User</option>
+                <option value="shared">Shared Resources</option>
+                <option value="post">Post</option>
+            </select>
 
-      			<div class="header" >
-<!--Type report -->
-        				<div class="menu-label" >
-							<input type="text" class="menu-label2" placeholder="Type of Report..."  >
-        				</div>
-        				 <details class="dropdown" >
-<!--ETOOOOOOO YUNGGGGGGGGGGGGG BUTTOOOOOOONNNNN-->							
-     <button class="dropdown-toggle"  >
-    <img src="iconicc/image.png" class="iconsregularchevron-down-s" alt="Open dropdown">
-  </button>
-
-						 					
-      			</div>
-				
-
-      			<div class="items-frame" >
-        				<div class="items-list">
-          					<div class="item-hover">
-            						<div class="label1">
-              							<div class="label12">Profile</div>
-            						</div>
-            						<img class="iconsregularchevron-down-s2" alt="">
-            						
-          					</div>
-          					<div class="item-hover2">
-            						<div class="label2">
-              							<div class="label22">Website</div>
-            						</div>
-            						<img class="iconsregularchevron-down-s2" alt="">
-            						
-          					</div>
-          					<div class="item-hover3">
-            						<div class="label2">
-              							<div class="label22">Other User</div>
-            						</div>
-            						<img class="iconsregularchevron-down-s2" alt="">
-            						
-          					</div>
-          					<div class="item-hover4">
-            						<div class="label4">
-              							<div class="label22">Share Resources</div>
-            						</div>
-            						<img class="iconsregularchevron-down-s2" alt="">
-            						
-          					</div>
-          					<div class="item-hover5">
-            						<div class="label2">
-              							<div class="label12">Post</div>
-            						</div>
-            						<img class="iconsregularchevron-down-s2" alt="">		
-          					</div>
-
-        				</div>
-      			</div>
-    		</div>
-
-    		<div class="describe-the-issue">Describe the Issue</div>
-
-    		<div class="rectangle-div"></div>
-<!-- Placeholder text for the issue description -->
-			<input type="text" class="please-describe-the" placeholder="Please describe the issue that you are facing. Include any relevant information.">
-
-    		<div class="photo-evidence">Photo Evidence</div>
-
-    		<div class="desktop-child2"></div>
-
-    		<img src = "iconicc/image copy 2.png" class="img-box-duotone-line-icon" alt="">
-    		
-    		<div class="dropdown-box2"></div>
-
-    		<div class="desktop-child3"></div>
-
-    		<div class="rectangle-parent">
-      			<button class="group-child"></button>
-      			<div class="submit-report">Submit Report</div>
-    		</div>
-
-    		<div class="text">
-      			<div class="company">
-        				<div class="terms-conditions">Terms & Conditions</div>
-      			</div>
-    		</div>
-
-    		<div class="rectangle-group">
-				<div class="group-child"></div>
-				</div>
-
-				<!-- Hidden file input -->
-				<input type="file" id="photoUpload" accept="image/*" hidden>
-
-				<label for="photoUpload" class="add-round-duotone-icon">
-				<img src="iconicc/image copy.png" alt="Add photo">
-				</label>
-
-			<div class="add-round-duotone"></div>
+            <div class="text4">Describe The Issue</div>
+            <textarea class="report-description" placeholder="Please describe the issue that you are facing. Include any relevant information."></textarea>
+       
+            <div class="text5">Photo Evidence</div>
+            <div class="upload-container">
+                <div class="upload-wrapper">
+                    <label for="upload">
+                        <img src="iconicc/image copy 2.png" class="upload-icon" alt="">
+                    </label>
+                    <input type="file" id="upload" accept="image/*" hidden>
+                </div>
+            </div>
+            
+            <div class="submit-container">
+                <button class="submit-btn">
+                    <div class="submit">Submit Report</div>
+                </button>
+            </div>
+        </div>
 
 
-    		<div class="company-parent">
-      			<div class="company2">
-        				<div class="terms-conditions">© 2026 Pampanga State University. All Rights Reserved. </div>
-      			</div>
-<!-- Footer links -->
-      			<div class="learn-more-parent">
-        				<div class="learn-more"><a href="#">Learn more</a></div>
-        				<div class="support"><a href="#">Support</a></div>
-        				<div class="terms-and-conditions"><a href="#">Terms and Conditions</a></div>
-        				<div class="privacy-policy"><a href="#">Privacy Policy</a></div>
-      			</div>
-    		</div>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="text3">© 2026 Pampanga State University. All Rights Reserved.</div>
+            </div>
+            <div class="footer-right">
+                <div class="learn-more"><a href="#">Learn more</a></div>
+        		<div class="support"><a href="#">Support</a></div>
+        		<div class="terms-and-conditions"><a href="#">Terms and Conditions</a></div>
+        		<div class="privacy-policy"><a href="#">Privacy Policy</a></div>
+            </div>
+        </div>
 
-<!-- Placeholder text for the search box -->
-    		<div class="navigations">
-      			<div class="navigationsyt-button"></div>
-      			<div class="navigationssearchbox">
-        				<div class="navigationssearchboxarea">
-
-							<input type="search" class="navigationssearchbox2" placeholder="Search">
-
-          					<button class="navigationssearchbox-button">
-            						<img src= "iconicc/image copy 7.png" class="navigationssearchbox-buttoni-icon" alt="">	
-          					</button>
-          					<div class="navigationssearchboxarea-child"></div>
-        				</div>
-      			</div>
-
-      			<div class="navigationsprofile">
-        				<div class="navigationsprofile2">
-          					<div class="profile-pic">
-            						<div class="user-avatar"></div>
-          					</div>
-        				</div>
-
-        				<div class="dropdown">
-          					<div class="button">
-								<!-- Create button -->
-            						<button class="label">+ Create</button>
-            						<img class="icon" alt="">	
-          					</div>
-        				</div>
-
-        			<button class="communication-chat-circle">
-					<img src="iconicc/image copy 5.png" alt="Chat">
-					</button>
-
-        			<button class="communication-bell">
-					<img src="iconicc/image copy 4.png" alt="Notifications">
-					</button>
-		
-      			</div>
-
-      			<div class="navigationsyt-buttonicon-parent" >
-        				<button class="navigationsyt-buttonicon">
-          					<img src = "iconicc/image copy 3.png" class="hamburger-icon" alt="">	
-						</button>
-        				<div class="group-inner"></div>
-        				<div class="sikhay-wrapper">
-          					<div class="sikhay">SIKHAY</div>
-        				</div>
-      			</div>
-    		</div>
-
-    		<div class="navigations2">
-      			<div class="navigationsyt-button"></div>
-      			<div class="navigationssearchbox3">
-        				<div class="navigationssearchboxarea2">
-          					<div class="navigationssearchbox2">
-            						<div class="border-bottom2"></div>
-            						<div class="border-left2"></div>
-            						<div class="border-top2"></div>
-									
-          					</div>
-
-          					<div class="navigationssearchbox-button">
-            						<div class="navigationssearchbox-buttoni">
-              							<div class="search3">
-              							</div>
-            						</div>
-          					</div>
-          					<div class="navigationssearchboxarea-child"></div>
-        				</div>
-      			</div>
-      			<div class="navigationsprofile3">
-        				<div class="navigationsprofile4">
-          					<div class="profile-pic">
-            						<div class="user-avatar"></div>
-          					</div>
-        				</div>
-
-        				<div class="rectangle-container">
-          					<div class="group-child2></div>
-          					<div class="div">+ </div>
-        				</div>
-        				<div class="communication-bell2"></div>
-      			</div>
-
-      			<div class="navigationsyt-buttonicon-group">
-        				<div class="navigationsyt-buttonicon2">
-          					<div class="hamburger"></div>
-        				</div>
-        				<div class="ellipse-div"></div>
-        				<div class="sikhay-container">
-          					<div class="sikhay">SIKHAY</div>
-        				</div>
-      			</div>
-    		</div>
-  	</div>
-  	
-	
+    </div>
 </body>
 </html>

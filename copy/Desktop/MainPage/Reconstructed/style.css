@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.Main-bg{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
+  	text-align: left;
+  	font-size: 15px;
+  	color: #fff;
+  	font-family: Lato;
+}
+
+.navbar-parent{
+    position: relative;
+    width: 100%;
+    height: 56px;
+    background-color: #eeb31a;
+    flex-shrink: 0;
+  	font-size: 16px;
+  	color: #aaa;
+  	font-family: Roboto;
+}
+
+.navbar-left{
+    position: absolute;
+    background-color: green;
+    height: calc(100% - 16px);
+    top: 8px;
+    bottom: 8px;
+    left: 20px;
+    width: 229px;
+    flex-shrink: 0;
+  	font-size: 36px;
+  	font-family: 'Modern Antiqua';
+}
+
