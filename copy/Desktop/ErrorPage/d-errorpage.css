@@ -120,6 +120,9 @@ html, body {
    }
 }
 
+.social-links img {
+  filter: brightness(0) invert(1);
+}
 
 .social-links {
   position: absolute;
