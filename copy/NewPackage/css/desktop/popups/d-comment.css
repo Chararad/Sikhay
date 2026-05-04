@@ -1,0 +1,318 @@
+.comments-popup {
+  	width: 100%;
+  	height: 477px;
+  	position: relative;
+  	text-align: left;
+  	font-size: 13.44px;
+  	color: #541616;
+  	font-family: Lato;
+}
+.comments-popup-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	border-radius: 9.36px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.rectangle-parent {
+  	position: absolute;
+  	width: calc(100% - 8px);
+  	top: 57px;
+  	right: 4px;
+  	left: 4px;
+  	height: 340px;
+  	overflow: hidden;
+}
+.frame-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	background-color: #f9eed3;
+  	flex-shrink: 0;
+}
+.scrollbar-custom {
+  	position: absolute;
+  	height: calc(100% - 1.1px);
+  	top: 1px;
+  	right: 1.3px;
+  	bottom: 0.1px;
+  	border-radius: 58.49px;
+  	background-color: #e8e8e8;
+  	width: 4.7px;
+  	flex-shrink: 0;
+}
+.bar {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 2.69px);
+  	border-radius: 58.49px;
+  	background-color: #541616;
+  	width: 4.7px;
+  	height: 19.3px;
+}
+.frame-parent {
+  	position: absolute;
+  	height: calc(100% + 78px);
+  	width: calc(100% - 40px);
+  	top: 20px;
+  	right: 20px;
+  	bottom: -98px;
+  	left: 20px;
+  	flex-shrink: 0;
+}
+.frame-wrapper {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.frame-container {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.image-parent {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16.8px;
+}
+.image-icon {
+  	height: 40.3px;
+  	width: 40.3px;
+  	position: relative;
+  	border-radius: 83.99px;
+  	object-fit: cover;
+}
+.frame-group {
+  	flex: 1;
+  	border-radius: 8.4px;
+  	background-color: #eeb31a;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 8.4px 16.8px;
+}
+.frame-div {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16.8px;
+}
+.name {
+  	flex: 1;
+  	position: relative;
+  	line-height: 160%;
+  	background: rgba(0, 0, 0, 0.2), #0b0f19;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.date-wrapper {
+  	display: flex;
+  	align-items: flex-start;
+  	text-align: right;
+  	font-size: 11.76px;
+}
+.date {
+  	position: relative;
+  	line-height: 160%;
+}
+.text {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 160%;
+  	background: rgba(0, 0, 0, 0.2), #0b0f19;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.meta {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 4.2px 25.2px;
+  	gap: 13.4px;
+  	text-align: right;
+  	font-size: 11.76px;
+}
+.icons-bx-like-parent {
+  	display: flex;
+  	align-items: center;
+  	gap: 3.4px;
+}
+.icons-bx-like {
+  	height: 15.1px;
+  	width: 15.1px;
+  	position: relative;
+}
+.frame-parent2 {
+  	position: absolute;
+  	width: 100%;
+  	top: 179.07px;
+  	right: 0px;
+  	left: 0px;
+  	height: 103.8px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16.8px;
+}
+.frame-item {
+  	height: 103.3px;
+  	width: 47.9px;
+  	position: relative;
+  	background-color: #f9eed3;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.image-group {
+  	flex: 1;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16.8px;
+}
+.frame-parent4 {
+  	position: absolute;
+  	width: 100%;
+  	top: 313.94px;
+  	right: 0px;
+  	left: 0px;
+  	height: 103.8px;
+  	display: flex;
+  	align-items: flex-start;
+  	gap: 16.8px;
+  	font-family: Manrope;
+}
+.edwards {
+  	font-family: Lato;
+}
+.date-frame {
+  	display: flex;
+  	align-items: flex-start;
+  	text-align: right;
+  	font-size: 11.76px;
+  	font-family: Lato;
+}
+.text3 {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 160%;
+  	font-family: Lato;
+  	background: rgba(0, 0, 0, 0.2), #0b0f19;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.reply {
+  	position: absolute;
+  	top: 148px;
+  	left: 65px;
+  	font-size: 11.76px;
+  	line-height: 160%;
+  	color: rgba(0, 0, 0, 0.38);
+  	text-align: right;
+}
+.reply2 {
+  	position: absolute;
+  	top: 282px;
+  	left: 122px;
+  	font-size: 11.76px;
+  	line-height: 160%;
+  	color: rgba(0, 0, 0, 0.38);
+  	text-align: right;
+}
+.menu-close-md {
+  	position: absolute;
+  	top: 13px;
+  	right: 10.2px;
+  	border-radius: 10.55px;
+  	width: 21.8px;
+  	height: 21.8px;
+}
+.frame-parent6 {
+  	position: absolute;
+  	width: calc(100% - 48px);
+  	right: 24px;
+  	bottom: 9px;
+  	left: 24px;
+  	display: flex;
+  	align-items: center;
+  	gap: 8.4px;
+  	text-align: center;
+  	color: #565973;
+}
+.image-parent2 {
+  	display: flex;
+  	align-items: flex-start;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 11.3px;
+}
+.image {
+  	height: 49.6px;
+  	width: 49.6px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #fff;
+  	border: 2.3px solid #541616;
+  	box-sizing: border-box;
+  	z-index: 0;
+}
+.image-icon4 {
+  	height: 40.5px;
+  	width: 40.5px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 4.5px;
+  	left: 4.5px;
+  	border-radius: 50%;
+  	object-fit: cover;
+  	z-index: 1;
+}
+.frame-parent7 {
+  	flex: 1;
+  	border-radius: 25.2px;
+  	background-color: #f3f3f3;
+  	border: 0.8px solid #eeb31a;
+  	display: flex;
+  	align-items: center;
+  	padding: 12.6px;
+  	gap: 8.4px;
+}
+.add-a-comment-wrapper {
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+}
+.add-a-comment {
+  	position: relative;
+  	line-height: 160%;
+  	font-weight: 600;
+}
+.frame-wrapper2 {
+  	display: flex;
+  	align-items: center;
+  	color: #fff;
+}
+.post-wrapper {
+  	border-radius: 25.2px;
+  	background-color: #832c2c;
+  	display: flex;
+  	align-items: center;
+  	padding: 8.4px 25.2px;
+}
+

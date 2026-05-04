@@ -1,0 +1,105 @@
+.direct-message {
+  	width: 100%;
+  	height: 478.9px;
+  	position: relative;
+  	text-align: left;
+  	font-size: 21.11px;
+  	color: #000;
+  	font-family: Lato;
+}
+.direct-message-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 13.19px;
+  	background-color: #f9eed3;
+  	border: 2px solid #541616;
+  	box-sizing: border-box;
+  	width: 562px;
+  	height: 478.9px;
+}
+.direct-message-item {
+  	position: absolute;
+  	width: calc(100% - 30.3px);
+  	top: 57.06px;
+  	right: 14.8px;
+  	left: 15.5px;
+  	border-top: 0.7px solid rgba(0, 0, 0, 0.4);
+  	box-sizing: border-box;
+  	height: 0.7px;
+  	transform:  rotate(0.2deg);
+  	transform-origin: 0 0;
+}
+.message-username {
+  	position: absolute;
+  	top: 20.45px;
+  	left: calc(50% - 110.82px);
+  	font-size: 23.75px;
+  	line-height: 94%;
+  	font-family: 'Modern Antiqua';
+}
+.menu-close-md {
+  	position: absolute;
+  	right: 15.14px;
+  	bottom: 444.57px;
+  	border-radius: 10.55px;
+  	width: 21.8px;
+  	height: 21.8px;
+}
+.direct-message-inner {
+  	position: absolute;
+  	top: 77.84px;
+  	left: 29.68px;
+  	border-radius: 9.23px;
+  	width: 66px;
+  	height: 66px;
+  	object-fit: cover;
+}
+.post-title {
+  	position: absolute;
+  	top: 98.28px;
+  	right: 364.48px;
+  	font-weight: 900;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 162.27px;
+  	left: 29.68px;
+  	border-radius: 5.28px;
+  	background-color: #fffbf0;
+  	border: 0.7px solid rgba(0, 0, 0, 0.4);
+  	box-sizing: border-box;
+  	width: 495.4px;
+  	height: 240.8px;
+}
+.please-type-your {
+  	position: absolute;
+  	top: 173.48px;
+  	left: 48.81px;
+  	color: rgba(0, 0, 0, 0.4);
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 420.18px;
+  	left: 197.23px;
+  	width: 168.9px;
+  	height: 38.3px;
+  	color: #fff;
+}
+.frame-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	border-radius: 6.6px;
+  	background-color: #832c2c;
+}
+.send-message {
+  	position: absolute;
+  	top: calc(50% - 12.55px);
+  	left: 17.81px;
+}
+

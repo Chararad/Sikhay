@@ -1,0 +1,117 @@
+.m-tos-privacy {
+  	width: 100%;
+  	height: 327px;
+  	position: relative;
+  	text-align: center;
+  	font-size: 24px;
+  	color: #000;
+  	font-family: Lato;
+}
+.m-tos-privacy-child {
+  	position: absolute;
+  	height: calc(100% - 52px);
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 52px;
+  	left: 0px;
+  	border-radius: 20px;
+  	background-color: #f9eed3;
+  	border: 3px solid #541616;
+  	box-sizing: border-box;
+}
+.menu-close-md {
+  	position: absolute;
+  	top: 9px;
+  	right: 10px;
+  	border-radius: 15.03px;
+  	width: 18px;
+  	height: 18px;
+}
+.m-tos-privacy-item {
+  	position: absolute;
+  	width: calc(100% - 29px);
+  	top: 59px;
+  	right: 14px;
+  	left: 15px;
+  	border-top: 2px solid #832c2c;
+  	box-sizing: border-box;
+  	height: 2px;
+}
+.accept-terms {
+  	position: absolute;
+  	top: 23px;
+  	left: 46px;
+  	line-height: 80%;
+  	font-family: 'Modern Antiqua';
+  	color: #eeb31a;
+  	text-shadow: 1px 0 0 #832c2c, 0 1px 0 #832c2c, -1px 0 0 #832c2c, 0 -1px 0 #832c2c;
+}
+.by-creating-an-container {
+  	position: absolute;
+  	width: calc(100% - 51px);
+  	top: 78px;
+  	left: 26px;
+  	font-size: 16px;
+  	line-height: 138%;
+  	display: inline-block;
+  	font-weight: 300;
+  	height: 202px;
+}
+.terms-of-service {
+  	text-decoration: underline;
+  	color: #94372f;
+}
+.t {
+  	color: #832c2c;
+}
+.privacy-policy {
+  	text-decoration: underline;
+  	color: #832c2c;
+}
+.rectangle-parent {
+  	position: absolute;
+  	width: calc(100% - 74.1px);
+  	top: 215px;
+  	right: 36.1px;
+  	left: 38px;
+  	height: 40.3px;
+  	font-size: 13.63px;
+  	color: #fff;
+}
+.frame-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 14.48px;
+  	background-color: #832c2c;
+  	width: 178.9px;
+  	height: 40.3px;
+}
+.continue {
+  	position: absolute;
+  	top: 9px;
+  	left: 59px;
+  	letter-spacing: 0.03em;
+  	line-height: 20.45px;
+  	font-weight: 900;
+}
+.i-have-read {
+  	position: absolute;
+  	width: calc(100% - 58px);
+  	top: 163px;
+  	left: 42px;
+  	font-size: 12px;
+  	line-height: 138%;
+  	display: inline-block;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 5.5%;
+  	top: 52.29%;
+  	bottom: 42.2%;
+  	left: 17px;
+  	max-height: 100%;
+  	width: 18px;
+}
+

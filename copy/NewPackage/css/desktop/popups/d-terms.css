@@ -1,0 +1,127 @@
+.d-tos-privacy {
+  	width: 100%;
+  	height: 324px;
+  	position: relative;
+  	text-align: center;
+  	font-size: 40px;
+  	color: #000;
+  	font-family: Lato;
+}
+.d-tos-privacy-child {
+  	position: absolute;
+  	height: calc(100% - 1.5px);
+  	width: calc(100% + 2px);
+  	top: 0px;
+  	right: -2px;
+  	bottom: 1.5px;
+  	left: 0px;
+  	border-radius: 13.19px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	flex-shrink: 0;
+}
+.menu-close-md {
+  	position: absolute;
+  	top: 9px;
+  	right: 12px;
+  	border-radius: 15.03px;
+  	width: 31px;
+  	height: 31px;
+  	flex-shrink: 0;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 5.56%;
+  	top: 68.52%;
+  	bottom: 25.93%;
+  	left: 52px;
+  	max-height: 100%;
+  	width: 18px;
+  	flex-shrink: 0;
+}
+.d-tos-privacy-item {
+  	position: absolute;
+  	width: calc(100% - 29px);
+  	top: 66.39px;
+  	right: 18.17px;
+  	left: 10.83px;
+  	border-top: 2px solid #832c2c;
+  	box-sizing: border-box;
+  	height: 2px;
+  	transform:  rotate(0.2deg);
+  	transform-origin: 0 0;
+  	flex-shrink: 0;
+}
+.accept-terms {
+  	position: absolute;
+  	top: 25px;
+  	left: calc(50% - 147px);
+  	line-height: 80%;
+  	font-family: 'Modern Antiqua';
+  	color: #eeb31a;
+  	display: inline-block;
+  	width: 285px;
+  	height: 39px;
+  	text-shadow: 1px 0 0 #832c2c, 0 1px 0 #832c2c, -1px 0 0 #832c2c, 0 -1px 0 #832c2c;
+  	flex-shrink: 0;
+}
+.by-creating-an-container {
+  	position: absolute;
+  	top: calc(50% - 77px);
+  	left: 27px;
+  	font-size: 30px;
+  	line-height: 138%;
+  	display: inline-block;
+  	font-weight: 300;
+  	width: 500px;
+  	height: 155px;
+  	flex-shrink: 0;
+}
+.terms-of-service {
+  	text-decoration: underline;
+  	color: #94372f;
+}
+.t {
+  	color: #832c2c;
+}
+.privacy-policy {
+  	text-decoration: underline;
+  	color: #832c2c;
+}
+.i-have-read {
+  	position: absolute;
+  	top: 221px;
+  	right: 43px;
+  	font-size: 14px;
+  	line-height: 138%;
+  	flex-shrink: 0;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 259px;
+  	left: 193px;
+  	width: 179px;
+  	height: 41px;
+  	flex-shrink: 0;
+  	font-size: 13.63px;
+  	color: #fff;
+}
+.frame-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 14.48px;
+  	background-color: #832c2c;
+  	width: 178.9px;
+  	height: 40.3px;
+}
+.continue {
+  	position: absolute;
+  	top: 9px;
+  	left: 59px;
+  	letter-spacing: 0.03em;
+  	line-height: 20.45px;
+  	font-weight: 900;
+}
+
