@@ -11,7 +11,7 @@
   --text-muted: #5c5748;
   --font-display: "Modern Antiqua", serif;
   --font-body: 'Lato', sans-serif;
-  --bg-img: url("Don-Honorio.png");
+  --bg-img: url("Assets/Don-Honorio.png");
 }
 
 body {
@@ -150,7 +150,7 @@ nav {
 .bg-building {
   position: fixed;
   top: 56px; left: 0; right: 0; bottom: 0;
-  background-image: var(--bg-img, url("Don-Honorio.png"));
+  background-image: var(--bg-img, url("Assets/Don-Honorio.png"));
   background-size: cover;
   background-position: center top;
   opacity: 0.18;
@@ -162,7 +162,7 @@ nav {
 .bg-lines {
   position: fixed;
   top: 56px; left: 0; right: 0; bottom: 0;
-  background-image: url("d-lines bg task and resources lists.png");
+  background-image: url("Assets/d-lines bg task and resources lists.png");
   background-size: cover;
   background-position: center top;
   opacity: 0.38;
