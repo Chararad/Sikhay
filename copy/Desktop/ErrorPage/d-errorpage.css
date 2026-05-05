@@ -87,10 +87,6 @@ html, body {
    z-index: 2;
 }
 
- 
-  
-   
-   
 
 .company2 {
    display: inline;
@@ -122,4 +118,33 @@ html, body {
       flex-direction: column;
       gap: 10px;
    }
+}
+
+.social-links img {
+  filter: brightness(0) invert(1);
+}
+
+.social-links {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1.2vw;
+  z-index: 3;
+}
+
+.social-link-1 {
+  width: 2vw;
+  height: auto;
+}
+
+.social-link-2 {
+  width: 2.3vw;
+  height: auto;
+}
+
+.social-link-3 {
+  width: 2vw;
+  height: auto;
 }

@@ -145,86 +145,70 @@
             box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
         }
 
-        .site-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 25px 50px;
-            font-size: 15px;
-            color: var(--text-dark);
-            flex-wrap: wrap;
-            gap: 20px;
-            position: relative;
-            z-index: 1;
-        }
+    
+      
+.company-parent {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+    bottom: 15px;
 
-        .footer-logo {
-            display: flex;
-            align-items: center;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 
-        .footer-logo-img {
-            width: 50px;
-            height: 50px;
-            object-fit: contain;
-            border-radius: 12px;
-            border: none;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            background: none;
-        }
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+    white-space: nowrap;
+}
 
-        .footer-center {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-            font-weight: 600;
-        }
 
-        .footer-center a {
-            color: var(--text-dark);
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
+.company2 {
+    display: inline;
+}
 
-        .footer-center a:hover {
-            opacity: 0.7;
-        }
+.pampanga-state-university {
+    font-weight: 700;
+}
 
-        .footer-socials {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
+.learn-more-group {
+    display: inline;
+}
 
-        .footer-socials svg {
-            width: 24px;
-            height: 24px;
-            fill: var(--text-dark);
-            cursor: pointer;
-            transition: opacity 0.2s;
-        }
+.learn-more,
+.support2,
+.terms-and-conditions2,
+.privacy-policy2 {
+    display: inline;
+    margin-left: 20px;
+}
 
-        .footer-socials svg:hover {
-            opacity: 0.7;
-        }
 
-        @media (max-width: 768px) {
-            .site-footer {
-                flex-direction: column;
-                text-align: center;
-                padding: 20px;
-                position: relative;
-                z-index: 1;
-            }
-            .footer-center {
-                flex-direction: column;
-                gap: 10px;
-            }
-            .otp-inputs {
-                gap: 10px;
-            }
-            .otp-box {
-                width: 55px;
-                height: 55px;
-            }
-        }
+.social-links {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1.2vw;
+  z-index: 3;
+}
+
+.social-link-1 {
+  width: 2vw;
+  height: auto;
+}
+
+
+.social-link-2 {
+  width: 2.3vw;
+  height: auto;
+}
+
+
+.social-link-3 {
+  width: 2vw;
+  height: auto;
+}
