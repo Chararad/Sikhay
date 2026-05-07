@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+}
+
+.Main-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+  	background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
+    inset: 0;
+    z-index: -2;
+  	
+}
+
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+.background2{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.navbar-parent{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background-color: #eeb31a;
+    flex-shrink: 0;
+  	font-size: 16px;
+  	color: #aaa;
+  	font-family: Roboto;
+    z-index: 1;
+}
+
+.navbar-left{
+    position: relative;
+    height: calc(100% - 16px);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    width: 229px;
+    flex-shrink: 0;
+  	font-size: 36px;
+  	font-family: 'Modern Antiqua';
+}
+
+.hamburger-icon-btn{
+    position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 8px;
+  	box-sizing: border-box;
+}
+
+.hamburger-icon{
+    height: 24px;
+  	width: 24px;
+  	position: relative;
+}
+
+.web-logo{
+    position: absolute;
+  	bottom: 2px;
+  	left: 51px;
+  	border-radius: 50%;
+  	background-color: #d9d9d9;
+  	width: 35px;
+  	height: 35px;
+}
+
+.sikhay-wrapper{
+    position: absolute;
+  	height: calc(100% - 6px);
+  	top: 6px;
+  	bottom: 0px;
+  	left: 93px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.sikhay{
+    position: relative;
+  	line-height: 94%;
+  	background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	text-shadow: 12px 4px 12.3px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-mid{
+    position: relative;
+  	width: 40.84%;
+  	margin-top: 8px;
+  	height: 40px;
+  	flex-shrink: 0;
+}
+
+.searchbar-wrapper{
+    position: absolute;
+  	height: calc(100% - 11px);
+  	width: calc(100% - 43.7px);
+  	top: 5px;
+  	right: 43.9px;
+  	bottom: 6px;
+  	left: -0.2px;
+  	border-radius: 9px;
+  	background-color: #fff;
+}
+
+.searchbar{
+    background-color: inherit;
+    position: absolute;
+  	width: calc(100% - 64px);
+  	border-radius: 9px 0px 0px 9px;
+  	height: 100%;
+  	overflow: hidden;
+    box-sizing: border-box;
+  	flex-shrink: 0;
+    outline: none;
+    border: none;
+}
+
+.search-btn{
+    background-color: inherit;
+    position: absolute;
+  	top: 0px;
+  	right: 0px;
+  	border-radius: 0px 9px 9px 0px;
+  	width: 64px;
+  	height: 100%;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 1px 0px;
+    box-sizing: border-box;
+  	flex-shrink: 0;
+    border-width: 0 0 0 2px;
+}
+
+.search-btn-icon{
+    width: 100%;
+  	height: 100%;
+  	position: relative;
+}
+
+.navbar-right{
+    position: relative;
+    height: calc(100% - 16px);
+  	margin-top: 8px;
+  	margin-right: 20px;
+  	margin-bottom: 8px;
+  	width: 245px;
+  	flex-shrink: 0;
+  	color: #541616;
+  	font-family: 'Fira Sans';
+}
+
+.create-btn{
+    position: absolute;
+    height: 100%;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0, 0, 0, 0.1);
+  	display: flex;
+  	align-items: center;
+  	padding: 8px 16px;
+  	gap: 8px;
+  	flex-shrink: 0;
+}
+
+.create-placeholder{
+    position: relative;
+  	line-height: 20px;
+  	font-weight: bolder;
+  	flex-shrink: 0;
+}
+
+.chat-icon{
+    position: absolute;
+  	height: calc(100% - 16px);
+  	top: 9px;
+  	bottom: 7px;
+  	left: 118px;
+  	max-height: 100%;
+  	width: 24px;
+}
+
+.bell-icon{
+    position: absolute;
+  	top: calc(50% - 11px);
+  	right: 64px;
+  	width: 24px;
+  	height: 24px;
+}
+
+.profile-container{
+    position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	padding: 4px 14px;
+  	box-sizing: border-box;
+}
+
+.profile-frame{
+  	height: 32px;
+  	width: 32px;
+  	position: relative;
+  	border-radius: 32px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.user-avatar{
+    position: absolute;
+  	top: calc(50% - 16px);
+  	left: calc(50% - 16px);
+  	background-color: #c4c4c4;
+  	width: 32px;
+  	height: 32px;
+  	flex-shrink: 0;
+}
