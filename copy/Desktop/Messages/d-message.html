@@ -35,7 +35,7 @@
         <div class="chat-list">
 
             <div class="chat-item">
-                <div class="chat-avatar">   <img src="pictures/retsej.jpg" alt="Retsej"></div>
+                <div class="chat-avatar">   <img src="pictures/retsej.png" alt="Retsej"></div>
                 <div class="chat-info">
                     <h3>Retsej Oayad</h3>
                     <p>Retsej is typing...</p>
@@ -118,14 +118,77 @@
         </div>
     </aside>
 
+<script src="d-message.js"></script>
+
+
+<aside class="right-panel" id="rightPanel">
+
+   
+    <div class="panel-profile">
+        <div class="profile-pic"></div>
+        <h2>Retsej Oayad</h2>
+        <p>Active now</p>
+    </div>
+
+   
+   
+
+   
+    <div class="panel-section">
+
+        <div class="item">
+            <span>View Pinned Message</span>
+            <img src="rightpanelicons/pin.svg" class = "pin-icon">
+        </div>
+
+        <div class="item">
+            <span>Nicknames</span>
+           
+        </div>
+
+        <div class="item">
+            <span>Media</span>
+            <img src="rightpanelicons/gallery.svg" class="gallery-icon">
+        </div>
+
+        <div class="item">
+            <span>Files</span>
+            <img src="rightpanelicons/file.svg" class="file-icon">
+        </div>
+
+        <div class="item toggle">
+            <span>Notifications</span>
+
+        </div>
+
+        <div class="item">
+            <span>Ignored Messages</span>
+            <img src="rightpanelicons/block.svg" class="ignore-icon">
+        </div>
+
+        <div class="item">
+            <span>Block</span>
+           
+        </div>
+
+        <div class="item danger">
+            <span>Report</span>
+            <img src="rightpanelicons/report.svg" class="report-icon">
+        </div>
+
+    </div>
+
+
+</aside>
+
     <!-- CHAT AREA -->
     <main class="chat-area">
         
 <div class="chat-header-box">
-	<img src = "more.svg" class="more">
+	<img src="moreside.svg" class="more" id="sideToggle">
 
     <div class="chat-user">
-        <div class="chat-user-avatar"></div>
+        <img src="pictures/retsej.png" alt="Retsej" class="chat-avatar2">
         <div class="chat-user-info">
             <h3>Retsej Oayad</h3>
             <p>Active now</p>
@@ -135,22 +198,67 @@
 
 
         <div class="messages-container">
-            <div class="message received">Good morning po! I saw your posted task.</div>
+            <div class="message received">Good morning po! I saw your posted task.
+                <div class="message-actions">
+
+    <img src="more.svg" class="more-icon">
+
+    <div class="message-menu">
+        <p>Reply</p>
+        <p>Forward</p>
+        <p>Report</p>
+    </div>
+</div>
+</div>
             <div class="message-time">15:18 PM</div>
 
-            <div class="message sent">Hello, yess po? are u interested on doing it?</div>
+            <div class="message received">
+             may gumawa na po ba? 
+
+    <div class="message-actions">
+    
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div>
+</div>
             <div class="message-time sent-time">15:19 PM</div>
 
-            <div class="message sent">plsss! badly needed na po huhu</div>
+            <div class="message sent">hello po, wala pa</div>
             <div class="message-time sent-time">15:20 PM</div>
 
-            <div class="message sent">:<<</div>
+            <div class="message sent">r u interested?</div>
             <div class="message-time sent-time">15:20 PM</div>
 
-            <div class="message received">yess poo, can i get the full instructiob??</div>
+            <div class="message received">
+                yess poo, can i get the full instructiob?? 
+            <div class="message-actions">
+       
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div></div>
             <div class="message-time">15:20 PM</div>
 
-            <div class="message received">instrution*</div>
+            <div class="message received">
+                instruction*  <div class="message-actions">
+    
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div></div>
             <div class="message-time">15:21 PM</div>
 
             <div class="message sent">sure sure, eto po</div>
@@ -159,7 +267,18 @@
             <div class="message sent">*sent an attachment*</div>
             <div class="message-time sent-time">15:21 PM</div>
 
-            <div class="message received">lemme check it po</div>
+            <div class="message received">
+                lemme check it po
+             <div class="message-actions">
+    
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div></div>
             <div class="message-time">15:22 PM</div>
 
             <div class="message sent">okiee tyt</div>
@@ -179,5 +298,31 @@
 
 </div>
 
+<script>
+document.querySelectorAll(".more-icon").forEach(icon => {
+    icon.addEventListener("click", function (e) {
+        e.stopPropagation();
+
+        // 🔥 FIX: always go to correct message container
+        const message = this.closest(".message");
+        const menu = message.querySelector(".message-menu");
+
+        // close all other menus
+        document.querySelectorAll(".message-menu").forEach(m => {
+            if (m !== menu) m.style.display = "none";
+        });
+
+        // toggle current
+        menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+    });
+});
+
+// click outside closes everything
+document.addEventListener("click", function () {
+    document.querySelectorAll(".message-menu").forEach(menu => {
+        menu.style.display = "none";
+    });
+});
+</script>
 </body>
 </html>
