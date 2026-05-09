@@ -6,6 +6,7 @@ html {
   min-height: 100%;
 }
 
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -62,8 +63,8 @@ body {
 }
 
 .icon-btn img {
-  width: 39px;
-  height: 39px;
+  width: 30px;
+  height: 30px;
 }
 
 .avatar-small {
@@ -71,6 +72,23 @@ body {
   height: 39px;
   border-radius: 999px;
   background: #d9d9d9;
+  
+}
+
+.logo {
+  width: 40px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.logo2 {
+  width: clamp(0.10em, 0.9em, 1em);
+  height: auto;
+  width: 1.10em;
+  margin-right: 0.05em;
+  margin-left: -0.50em;
+  transform: translateY(0.05em);
+  filter: drop-shadow(12px 6px 14px rgba(0, 0, 0, 0.35));
 }
 
 .brand {
@@ -108,12 +126,17 @@ body {
 
 .hero-title {
   margin-top: 38px;
+  margin-left: 100px;
+
+  display: flex;
+  align-items: baseline;
   font-family: "Modern Antiqua", serif;
   font-size: clamp(60px, 12vw, 176px);
   line-height: 0.82;
   color: #f0bb1e;
   text-shadow: 12px 6px 14px rgba(0, 0, 0, 0.35);
 }
+
 
 .hero-subtitle {
   margin: 22px 0 24px;
@@ -199,7 +222,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 12px;
+  gap: 0px;
   font-size: clamp(18px, 1.4vw, 24px);
   font-weight: 700;
   color: rgba(255, 255, 255, 0.87);
@@ -218,7 +241,6 @@ body {
 }
 
 .footer-links a {
-  color: rgba(0, 0, 0, 0.78);
   text-decoration: none;
   white-space: normal;
   color: rgba(255, 255, 255, 0.87);

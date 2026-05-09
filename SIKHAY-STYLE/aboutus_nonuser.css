@@ -72,6 +72,23 @@ body {
   height: 39px;
   border-radius: 999px;
   background: #d9d9d9;
+  
+}
+
+.logo {
+  width: 40px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.logo2 {
+  width: clamp(0.10em, 0.9em, 1em);
+  height: auto;
+  width: 1.10em;
+  margin-right: 0.05em;
+  margin-left: -0.50em;
+  transform: translateY(0.05em);
+  filter: drop-shadow(12px 6px 14px rgba(0, 0, 0, 0.35));
 }
 
 .brand {
@@ -109,12 +126,17 @@ body {
 
 .hero-title {
   margin-top: 38px;
+  margin-left: 100px;
+
+  display: flex;
+  align-items: baseline;
   font-family: "Modern Antiqua", serif;
   font-size: clamp(60px, 12vw, 176px);
   line-height: 0.82;
   color: #f0bb1e;
   text-shadow: 12px 6px 14px rgba(0, 0, 0, 0.35);
 }
+
 
 .hero-subtitle {
   margin: 22px 0 24px;
