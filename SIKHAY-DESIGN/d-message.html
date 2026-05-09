@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIKHAY Messages</title>
+
+    <link rel="stylesheet" href="../SIKHAY-STYLE/d-message.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap">
+</head>
+<body>
+
+	
+<div class="d-messages">
+
+    <!-- NAVIGATION -->
+   <header class="navbar">
+    <div class="nav-left">
+        <img src="hamburger.svg" class="menu-icon">
+        <span class="logo">SIKHAY</span>
+    </div>
+
+    <div class="nav-right">
+        <img src="Chat_Circle.svg" class="icon">
+        <img src="bell.svg" class="icon">
+        <div class="profile"></div>
+    </div>
+</header>
+
+    <!-- SIDEBAR -->
+    <aside class="frame-container">
+        <h2>Messages</h2>
+
+        <div class="chat-list">
+
+            <div class="chat-item">
+                <div class="chat-avatar">   <img src="pictures/retsej.png" alt="Retsej"></div>
+                <div class="chat-info">
+                    <h3>Retsej Oayad</h3>
+                    <p>Retsej is typing...</p>
+                    <span>14:28</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"> <img src="pictures/jerome.jpg" alt="Jerome"></div>
+                <div class="chat-info">
+                    <h3 id="jerome">Jerome Aquino</h3>
+                    <p>Yess, I!?</p>
+                    <span>Yesterday</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar">  <img src="pictures/richard.jpg" alt="Richard"></div>
+                <div class="chat-info">
+                    <h3>Leo Lacanlale</h3>
+                    <p>Madali lang yon, lala mo</p>
+                    <span>Yesterday</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"> <img src="pictures/mariz.jpg" alt="Janine"></div>
+                <div class="chat-info">
+                    <h3>Janine Marcellones</h3>
+                    <p>rightt???</p>
+                    <span>Friday</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"> <img src="pictures/janna.png" alt="Nicole"></div>
+                <div class="chat-info">
+                    <h3>Nicole Pagal</h3>
+                    <p> 1+1 is equal..hydrogen!</p>
+                    <span>07/21/2022</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"> <img src="pictures/cheska.jpg" alt="Chescakes"></div>
+                <div class="chat-info">
+                    <h3>Chescakes Sitchon</h3>
+                    <p>tekaa... mobdev muna</p>
+                    <span>07/18/2022</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"></div>
+                <div class="chat-info">
+                    <h3>Limuel NoSurname</h3>
+                    <p>Yeah, sure.</p>
+                    <span>07/18/2022</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"></div>
+                <div class="chat-info">
+                    <h3>Jose Rizal</h3>
+                    <p>JESS, ARE U KIDDING?!</p>
+                    <span>07/12/2022</span>
+                </div>
+            </div>
+
+            <div class="chat-item">
+                <div class="chat-avatar"></div>
+                <div class="chat-info">
+                    <h3>John Mark Policarpio</h3>
+                    <p>Haha, yes!!</p>
+                    <span>07/12/2022</span>
+                </div>
+            </div>
+
+        </div>
+    </aside>
+
+<script src="d-message.js"></script>
+
+
+<aside class="right-panel" id="rightPanel">
+
+   
+    <div class="panel-profile">
+        <div class="profile-pic"></div>
+        <h2>Retsej Oayad</h2>
+        <p>Active now</p>
+    </div>
+
+   
+   
+
+   
+    <div class="panel-section">
+
+        <div class="item">
+            <span>View Pinned Message</span>
+            <img src="rightpanelicons/pin.svg" class = "pin-icon">
+        </div>
+
+        <div class="item">
+            <span>Nicknames</span>
+           
+        </div>
+
+        <div class="item">
+            <span>Media</span>
+            <img src="rightpanelicons/gallery.svg" class="gallery-icon">
+        </div>
+
+        <div class="item">
+            <span>Files</span>
+            <img src="rightpanelicons/file.svg" class="file-icon">
+        </div>
+
+        <div class="item toggle">
+            <span>Notifications</span>
+
+        </div>
+
+        <div class="item">
+            <span>Ignored Messages</span>
+            <img src="rightpanelicons/block.svg" class="ignore-icon">
+        </div>
+
+        <div class="item">
+            <span>Block</span>
+           
+        </div>
+
+        <div class="item danger">
+            <span>Report</span>
+            <img src="rightpanelicons/report.svg" class="report-icon">
+        </div>
+
+    </div>
+
+
+</aside>
+
+    <!-- CHAT AREA -->
+    <main class="chat-area">
+        
+<div class="chat-header-box">
+	<img src="moreside.svg" class="more" id="sideToggle">
+
+    <div class="chat-user">
+        <img src="pictures/retsej.png" alt="Retsej" class="chat-avatar2">
+        <div class="chat-user-info">
+            <h3>Retsej Oayad</h3>
+            <p>Active now</p>
+        </div>
+    </div>
+</div>
+
+
+        <div class="messages-container">
+            <div class="message received">Good morning po! I saw your posted task.
+                <div class="message-actions">
+
+    <img src="more.svg" class="more-icon">
+
+    <div class="message-menu">
+        <p>Reply</p>
+        <p>Forward</p>
+        <p>Report</p>
+    </div>
+</div>
+</div>
+            <div class="message-time">15:18 PM</div>
+
+            <div class="message received">
+             may gumawa na po ba? 
+
+    <div class="message-actions">
+    
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div>
+</div>
+            <div class="message-time sent-time">15:19 PM</div>
+
+            <div class="message sent">hello po, wala pa</div>
+            <div class="message-time sent-time">15:20 PM</div>
+
+            <div class="message sent">r u interested?</div>
+            <div class="message-time sent-time">15:20 PM</div>
+
+            <div class="message received">
+                yess poo, can i get the full instructiob?? 
+            <div class="message-actions">
+       
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div></div>
+            <div class="message-time">15:20 PM</div>
+
+            <div class="message received">
+                instruction*  <div class="message-actions">
+    
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div></div>
+            <div class="message-time">15:21 PM</div>
+
+            <div class="message sent">sure sure, eto po</div>
+            <div class="message-time sent-time">15:21 PM</div>
+
+            <div class="message sent">*sent an attachment*</div>
+            <div class="message-time sent-time">15:21 PM</div>
+
+            <div class="message received">
+                lemme check it po
+             <div class="message-actions">
+    
+        <img src="more.svg" class="more-icon">
+
+        <div class="message-menu">
+            <p>Reply</p>
+            <p>Forward</p>
+            <p>Report</p>
+        </div>
+    </div></div>
+            <div class="message-time">15:22 PM</div>
+
+            <div class="message sent">okiee tyt</div>
+            <div class="message-time sent-time">15:22 PM</div>
+        </div>
+
+        <div class="message-input">
+            <input type="text" placeholder="Type here...">
+        <img src="Paper_Plane.svg" class="send"> 
+
+		 <img src="image.svg" class="icon-img">
+        <img src="elipse.svg" class="icon-attach">
+		<img src="paperclip.svg" class="paperclip-attach">
+        </div>
+		</div>
+    </main>
+
+</div>
+
+
+</body>
+</html>
