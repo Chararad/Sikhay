@@ -1,32 +1,37 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("login");
-  const emailInput = document.getElementById("email");
-  const passwordInput = document.getElementById("password");
+const form = document.getElementById("login");
+const emailInput = document.getElementById("email");
+const passwordInput = document.getElementById("password");
 
-  if (!form || !emailInput || !passwordInput) {
-    console.error("Form or input elements not found.");
-    return;
-  }
+form.addEventListener("submit", function (event) {
+event.preventDefault();
 
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
+const emailValue = emailInput.value.trim().toLowerCase();
+const passwordValue = passwordInput.value.trim();
 
-    const emailValue = emailInput.value.trim();
-    const passwordValue = passwordInput.value.trim();
-    const allowedDomain = "@pampangastateu.edu.ph";
+if (emailValue === "" || passwordValue === "") {
+alert("Please fill in all fields.");
+return;
+}
 
-    if (emailValue === "" || passwordValue === "") {
-      alert("Please fill in all fields.");
-      return;
-    }
+if (passwordValue.length < 8) {
+alert("Password must be at least 8 characters long.");
+passwordInput.focus();
+return;
+}
 
-    if (!emailValue.endsWith(allowedDomain)) {
-      alert("Only @pampangastateu.edu.ph emails are allowed.");
-      emailInput.focus();
-      return;
-    }
+if (passwordValue != "password123") {
+alert("Incorrect password. Please try again.");
+passwordInput.focus();
+return;
+}
 
-    alert("Login successful with PSU email!");
+if (!emailValue.endsWith("@pampangastateu.edu.ph")) {
+alert("Only @pampangastateu.edu.ph emails are allowed.");
+emailInput.focus();
+return;
+}
 
-  });
+window.location.href = "Mainpagecopy.html";
+});
 });
