@@ -1,6 +1,9 @@
 const menu = document.querySelector(".hamburger-icon-btn");
 const menubar = document.querySelector(".menu-bar");
 const blackBG = document.querySelector(".black-bg");
+const cm1 = document.getElementById("comment1");
+const popup = document.querySelector(".popup-comment");
+
 
 let menuSwitch = false;
 
@@ -20,3 +23,15 @@ menu.addEventListener("click", () =>{
     }
     
 });
+
+cm1.addEventListener("click", () =>{
+    popup.classList.add("child");
+});
+
+/*document.addEventListener("click", function(e) {
+    if(!popup.contains(e.target) && e.target !== sideToggle){
+        popup.classList.remove("child");
+        popup.classList.add("child2");
+    }
+    
+}) */
