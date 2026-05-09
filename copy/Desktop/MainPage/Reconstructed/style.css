@@ -1,4 +1,5 @@
 body{
+	
     margin: 0;
 }
 
@@ -1326,6 +1327,34 @@ body{
 .menu-bar-child a{
 	color: #000;
 	text-decoration: none;
+}
+
+.popup-comment{
+	background-color: red;
+	width: 50%;
+	top: 20%;
+	right: 45%;
+  	height: 300px;
+  	position: fixed;
+  	text-align: left;
+  	font-size: 13.44px;
+  	color: #541616;
+  	font-family: Lato;
+	opacity: 0;
+}
+
+.popup-comment.child{
+	animation: Appear .5s forwards;
+}
+
+
+@keyframes Appear{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
 
 @keyframes SlideIn{
