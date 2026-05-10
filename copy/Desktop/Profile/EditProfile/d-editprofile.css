@@ -445,6 +445,7 @@
   	z-index: 1;
 }
 .edit-profile-item {
+	background-color: red;
   	width: 121px;
   	position: relative;
   	border-radius: 50%;

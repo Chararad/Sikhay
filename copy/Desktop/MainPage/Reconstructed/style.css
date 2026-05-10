@@ -1347,13 +1347,26 @@ body{
 	animation: Appear .5s forwards;
 }
 
+.black-bg{
+	background-color: #000;
+	height: 100vh;
+	width: 100%;
+	pointer-events: none;
+	position: fixed;
+	opacity: 0;
+	z-index: 3;
+}
+
+.black-bg.active{
+	animation: Appear .3s ease forwards;
+}
 
 @keyframes Appear{
 	from{
 		opacity: 0;
 	}
 	to{
-		opacity: 1;
+		opacity: .5;
 	}
 }
 

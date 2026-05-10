@@ -14,6 +14,73 @@
         <img src="Assets/lines bg editprofile.png" class="background2" alt="">
     </div>
 
+    <div class="edit-profile">
+        <div class="edit-profile-header">Edit Profile</div>
+        <div class="edit-profile-header-divider"></div>
+        <div class="edit-profile-pic-frame">
+            <img src="Assets/mariz.jpg" alt="" class="edit-profile-pic">
+        </div>
+
+        <div class="change-photo-frame">
+            <button class="change-photo-btn">Change Profile Image</button>
+        </div>
+        
+        <div class="edit-information-container">
+            <div class="username-label">Username</div>
+            <div class="edit-username-wrapper">
+               <input type="text" class="edit-username" placeholder="Username" maxlength="40">
+                <span class="username-counter">0/40</span>
+            </div>
+            <div class="username-note">Your username must not contain special characters. </div>
+
+            <div class="bio-label">Bio</div>
+            <div class="edit-bio-wrapper">
+               <textarea type="text" class="edit-bio" placeholder="Bio" maxlength="200"></textarea>
+                <span class="bio-counter">0/200</span>
+            </div>
+
+            <div class="program-label">Program</div>
+            <div class="edit-program-wrapper">
+                <select class="edit-program" name="program" id="program">
+                    <option value="" disabled selected>Choose Your Program</option>
+                </select>
+            </div>
+
+            <div class="birthday-label">Birthday</div>
+            <div class="edit-birthday-wrapper">
+                <input type="date" class="edit-birthday">
+            </div>
+
+            <div class="hometown-label">Hometown</div>
+            <div class="edit-hometown-wrapper">
+               <input type="text" class="edit-hometown" placeholder="Hometown" maxlength="40">
+                <span class="hometown-counter">0/40</span>
+            </div>
+
+            <div class="email-label">Email</div>
+            <div class="edit-email-wrapper">
+                <input type="email" class="edit-email" placeholder="user@pampangastateu.edu.ph">
+            </div>
+
+            <div class="link-label">Links</div>
+            <div class="edit-link-wrapper">
+                <input type="text" id="link1" class="edit-link" placeholder="Add your link">
+            </div>
+            <div class="edit-link-wrapper">
+                <input type="text" id="link2" class="edit-link" placeholder="Add your link">
+            </div>
+            <div class="edit-link-wrapper">
+                <input type="text" id="link3" class="edit-link" placeholder="Add your link">
+            </div>
+
+            <div class="save-wrapper">
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="white-bg"></div>
+
     <div class="navbar-parent">
         <div class="navbar-left">
             <div class="hamburger-icon-btn">
@@ -62,13 +129,351 @@
     <div class="layout">
         <div class="content-parent">
             <div class="user-background">
-                <img src="" class="user-bg-pic">
-                <div class="user-bg-under"></div>
+                
+                <img src="Assets/Rectangle 182-1.png" class="user-bg-pic">
+                <div class="user-bg-under">
+                    <div class="stats-parent">
+                        <div class="posts-parent">
+                            <div class="number-of-post">30</div>
+                            <div class="title-post">Posts</div>
+                        </div>
+                        <div class="divider">/</div>
+                        <div class="likes-parent">
+                            <div class="number-of-like">30</div>
+                            <div class="title-like">Likes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-parent">
+                    <div class="name-description-parent">
+                        <div class="name">
+                            <b class="username">Janine Mariz Marcellones</b>
+                        </div>
+                        <div class="description-wrapper">
+                            <div class="description">Amare me stesso</div>
+                        </div>
+                    </div>
+
+                    <div class="edit-parent">
+                        <div class="left-dummy"></div>
+                        <div class="edit-container">
+                            <div class="image-icon-frame">
+                                <img src="Assets/camera.svg" alt="" class="image-icon">
+                            </div>
+                            <div class="edit-frame">
+                                <img src="Assets/pencil.svg" alt="" class="pencil-icon">
+                                <div class="text2">Edit Profile</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="profile-pic-parent">
+                    <div class="profile-pic-container"> <!--onclick-->
+                        <div class="profile-pic-frame2">
+                            <img src="Assets/mariz.jpg" class="profile-pic2" alt="">
+                        </div>
+                        <div class="camera-icon-frame">
+                            <img src="Assets/camera.svg" alt="" class="camera-icon">
+                        </div>
+                    </div>
+                </div>
+                
+            
             </div>
+
+            <div class="feed-parent">
+                <div class="feed-container">
+                    <div class="feed-header-container">
+                        <div class="feed-header-parent">
+                            <div class="option posts2">Posts</div>
+                            <div class="option likes2">Likes</div>
+                            <div class="option tasks2">Tasks</div>
+                            <div class="option resources2">Resources</div>
+                        </div>
+                    </div>
+                    <div class="feed-post-container">
+                        <div class="post">
+                            <div class="post-wrapper">
+                                <div class="post-header">
+                                    <div class="profile-pic-frame">
+                                        <img src="Assets/testprofile.png" class="profile-pic" alt="">
+                                    </div>
+                                    <div class="User">Jester Dayao</div>
+                                    <div class="dot"></div>
+                                    <i class="time-made">1 min ago</i>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                </div>
+                        
+                                <div class="post-content">
+                                    <div class="post-information">
+                                        <div class="post-title">Calculator</div>
+                                        <div class="information">lorem lorem-ipsum-dolor3</div>
+                                        <div class="interactables">
+                                            <a href="#" class="heart-wrapper">
+                                                <img src="Assets/heart2.svg" class="like" alt="">
+                                                <div class="like-counts">1</div>
+                                            </a>
+                                            <a href="#" class="comment-wrapper">
+                                                <img src="Assets/comments.svg" id="comment1" class="comment" alt="">
+                                                <div class="comment-counts">3</div>
+                                            </a>
+                                            <a href="#" class="share-wrapper">
+                                                <img src="Assets/share.svg" class="share" alt="">
+                                                <div class="share-counts">0</div>
+                                            </a>
+                                    
+                                        </div>
+                                    </div>
+                                    <div class="post-image-frame">
+                                        <img src="Assets/3c0ef73b-4c6e-49b2-8e87-10c350ca654b (1).jfif" class="post-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post-wrapper">
+                                <div class="post-header">
+                                    <div class="profile-pic-frame">
+                                        <img src="Assets/testprofile.png" class="profile-pic" alt="">
+                                    </div>
+                                    <div class="User">Jester Dayao</div>
+                                    <div class="dot"></div>
+                                    <i class="time-made">1 min ago</i>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                </div>
+                        
+                                <div class="post-content">
+                                    <div class="post-information">
+                                        <div class="post-title">Calculator</div>
+                                        <div class="information">lorem lorem-ipsum-dolor3</div>
+                                        <div class="interactables">
+                                            <a href="#" class="heart-wrapper">
+                                                <img src="Assets/heart2.svg" class="like" alt="">
+                                                <div class="like-counts">1</div>
+                                            </a>
+                                            <a href="#" class="comment-wrapper">
+                                                <img src="Assets/comments.svg" id="comment1" class="comment" alt="">
+                                                <div class="comment-counts">3</div>
+                                            </a>
+                                            <a href="#" class="share-wrapper">
+                                                <img src="Assets/share.svg" class="share" alt="">
+                                                <div class="share-counts">0</div>
+                                            </a>
+                                    
+                                        </div>
+                                    </div>
+                                    <div class="post-image-frame">
+                                        <img src="Assets/3c0ef73b-4c6e-49b2-8e87-10c350ca654b (1).jfif" class="post-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post-wrapper">
+                                <div class="post-header">
+                                    <div class="profile-pic-frame">
+                                        <img src="Assets/testprofile.png" class="profile-pic" alt="">
+                                    </div>
+                                    <div class="User">Jester Dayao</div>
+                                    <div class="dot"></div>
+                                    <i class="time-made">1 min ago</i>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                </div>
+                        
+                                <div class="post-content">
+                                    <div class="post-information">
+                                        <div class="post-title">Calculator</div>
+                                        <div class="information">lorem lorem-ipsum-dolor3</div>
+                                        <div class="interactables">
+                                            <a href="#" class="heart-wrapper">
+                                                <img src="Assets/heart2.svg" class="like" alt="">
+                                                <div class="like-counts">1</div>
+                                            </a>
+                                            <a href="#" class="comment-wrapper">
+                                                <img src="Assets/comments.svg" id="comment1" class="comment" alt="">
+                                                <div class="comment-counts">3</div>
+                                            </a>
+                                            <a href="#" class="share-wrapper">
+                                                <img src="Assets/share.svg" class="share" alt="">
+                                                <div class="share-counts">0</div>
+                                            </a>
+                                    
+                                        </div>
+                                    </div>
+                                    <div class="post-image-frame">
+                                        <img src="Assets/3c0ef73b-4c6e-49b2-8e87-10c350ca654b (1).jfif" class="post-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post-wrapper">
+                                <div class="post-header">
+                                    <div class="profile-pic-frame">
+                                        <img src="Assets/testprofile.png" class="profile-pic" alt="">
+                                    </div>
+                                    <div class="User">Jester Dayao</div>
+                                    <div class="dot"></div>
+                                    <i class="time-made">1 min ago</i>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                </div>
+                        
+                                <div class="post-content">
+                                    <div class="post-information">
+                                        <div class="post-title">Calculator</div>
+                                        <div class="information">lorem lorem-ipsum-dolor3</div>
+                                        <div class="interactables">
+                                            <a href="#" class="heart-wrapper">
+                                                <img src="Assets/heart2.svg" class="like" alt="">
+                                                <div class="like-counts">1</div>
+                                            </a>
+                                            <a href="#" class="comment-wrapper">
+                                                <img src="Assets/comments.svg" id="comment1" class="comment" alt="">
+                                                <div class="comment-counts">3</div>
+                                            </a>
+                                            <a href="#" class="share-wrapper">
+                                                <img src="Assets/share.svg" class="share" alt="">
+                                                <div class="share-counts">0</div>
+                                            </a>
+                                    
+                                        </div>
+                                    </div>
+                                    <div class="post-image-frame">
+                                        <img src="Assets/3c0ef73b-4c6e-49b2-8e87-10c350ca654b (1).jfif" class="post-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="post-wrapper">
+                                <div class="post-header">
+                                    <div class="profile-pic-frame">
+                                        <img src="Assets/testprofile.png" class="profile-pic" alt="">
+                                    </div>
+                                    <div class="User">Jester Dayao</div>
+                                    <div class="dot"></div>
+                                    <i class="time-made">1 min ago</i>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                    <div class="tag1">
+                                        <i class="tag-title1">Tag</i>
+                                    </div>
+                                </div>
+                        
+                                <div class="post-content">
+                                    <div class="post-information">
+                                        <div class="post-title">Calculator</div>
+                                        <div class="information">lorem lorem-ipsum-dolor3</div>
+                                        <div class="interactables">
+                                            <a href="#" class="heart-wrapper">
+                                                <img src="Assets/heart2.svg" class="like" alt="">
+                                                <div class="like-counts">1</div>
+                                            </a>
+                                            <a href="#" class="comment-wrapper">
+                                                <img src="Assets/comments.svg" id="comment1" class="comment" alt="">
+                                                <div class="comment-counts">3</div>
+                                            </a>
+                                            <a href="#" class="share-wrapper">
+                                                <img src="Assets/share.svg" class="share" alt="">
+                                                <div class="share-counts">0</div>
+                                            </a>
+                                    
+                                        </div>
+                                    </div>
+                                    <div class="post-image-frame">
+                                        <img src="Assets/3c0ef73b-4c6e-49b2-8e87-10c350ca654b (1).jfif" class="post-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-information">
+                    <div class="user-information-container">
+                        <div class="info1">Personal Information</div>
+                        <div class="course-wrapper">
+                            <img src="Assets/fi-rr-graduation-cap.svg" alt="" class="course-icon">
+                            <i class="user-course">Bachelor of Computer Science</i>
+                        </div>
+                        <div class="birthday-wrapper">
+                            <img src="Assets/fi-rr-cake-birthday.svg" alt="" class="birthday-icon">
+                            <i class="user-birthday">May 7, 2006</i>
+                        </div>
+                        <div class="homename-wrapper">
+                            <img src="Assets/Vector-3.svg" alt="" class="homename-icon">
+                            <i class="user-homename">Porac</i>
+                        </div>
+                        <div class="info2">Contacts</div>
+                        <div class="email-wrapper">
+                            <img src="Assets/Vector-2.svg" alt="" class="email-icon">
+                            <i class="user-email">user@gmail.com</i>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><img src="Assets/Social Icons-2.svg" alt="" class="facebook"></a>
+                            <a href="#"><img src="Assets/Social Icons-1.svg" alt="" class="ig"></a>
+                            <a href="#"><img src="Assets/Social Icons.svg" alt="" class="github"></a>
+                        </div>
+
+                    </div>
+
+                    <div class="footer">
+                        <div class="links">
+                            <a href="#"><i class="terms-and-conditions">Terms and Conditions</i></a>
+                            <div class="small-circle"></div>
+                            <a href="#"><i class="privacy-policy">Privacy Policy</i></a>
+                        </div>
+                        <div class="company">
+                            <div class="psu">© 2026 Pampanga State University.</div>
+                            <div class="alr">All Rights Reserved.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+
+
     </div>
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>
