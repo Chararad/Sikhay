@@ -17,26 +17,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.querySelectorAll(".more-icon").forEach(icon => {
-    icon.addEventListener("click", function (e) {
-        e.stopPropagation();
-
-        const message = this.closest(".message");
-        const menu = message.querySelector(".message-menu");
-
-        
-        document.querySelectorAll(".message-menu").forEach(m => {
-            if (m !== menu) m.style.display = "none";
-        });
-
-   
-        menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
-    });
-});
-
-
-document.addEventListener("click", function () {
-    document.querySelectorAll(".message-menu").forEach(menu => {
-        menu.style.display = "none";
-    });
-});
