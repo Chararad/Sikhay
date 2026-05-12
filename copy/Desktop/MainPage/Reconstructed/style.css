@@ -1322,6 +1322,87 @@ body{
   	line-height: 14px;
 }
 
+.settings-wrapper{
+	margin-top: 270px;
+	width: 100%;
+  	border-radius: 24px;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	min-width: 264px;
+  	max-width: 320px;
+}
+
+.settings-icon-frame{
+	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.settings-icon{
+	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+.settings-title{
+	flex: 1;
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	line-height: 14px;
+}
+
+.Log-out-wrapper{
+	width: 100%;
+  	border-radius: 24px;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	min-width: 264px;
+  	max-width: 320px;
+}
+
+.Log-out-icon-frame{
+	height: 16px;
+  	width: 16px;
+  	position: relative;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+
+.Log-out-icon{
+	position: absolute;
+  	height: 75%;
+  	width: 75%;
+  	top: 12.5%;
+  	right: 12.5%;
+  	bottom: 12.5%;
+  	left: 12.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+
+.Log-out-title{
+	flex: 1;
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	line-height: 14px;
+	color: #b01212;
+}
 
 
 .menu-bar-child a{
@@ -1366,7 +1447,7 @@ body{
 		opacity: 0;
 	}
 	to{
-		opacity: .5;
+		opacity: .7;
 	}
 }
 

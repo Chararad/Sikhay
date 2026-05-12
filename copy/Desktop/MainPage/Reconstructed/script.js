@@ -7,8 +7,12 @@ const popup = document.querySelector(".popup-comment");
 
 let menuSwitch = false;
 
-menu.addEventListener("click", () =>{
 
+menu.addEventListener("click", () =>{
+    menuClicked();
+});
+
+function menuClicked(){
     menuSwitch = !menuSwitch
 
     if(menuSwitch){
@@ -21,8 +25,9 @@ menu.addEventListener("click", () =>{
         menubar.classList.add("close");
         blackBG.classList.remove("active");
     }
-    
-});
+}
+
+
 
 cm1.addEventListener("click", () =>{
     popup.classList.add("child");
