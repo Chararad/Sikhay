@@ -2,8 +2,9 @@
 const menu = document.querySelector(".hamburger-icon-btn");
 const menubar = document.querySelector(".menu-bar");
 const blackBG = document.querySelector(".black-bg");
+const whiteBG = document.querySelector(".white-bg");
 const cm1 = document.getElementById("comment1");
-const popup = document.querySelector(".popup-comment");
+
 
 
 let menuSwitch = false;
@@ -51,10 +52,27 @@ feedProfile.forEach(function(feed){
 });
 
 //Comment bar
-const commentBar = document.querySelectorAll(".comment");
+const commentBar = document.querySelectorAll(".comment-wrapper");
+const popup = document.querySelector(".popup-comment-container");
+const cancelCommentBtn = document.querySelector(".cancel-comment-icon");
+
 
 commentBar.forEach(function (feed){
     feed.addEventListener("click",function(){
-        
+        openComment();
     });
 });
+
+cancelCommentBtn.addEventListener("click", () =>{
+    closeComment();
+})
+
+function openComment(){
+    popup.classList.add("child");
+    whiteBG.classList.add("active");
+}
+
+function closeComment(){
+    popup.classList.remove("child")
+    whiteBG.classList.remove("active");
+}
