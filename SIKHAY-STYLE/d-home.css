@@ -1,0 +1,262 @@
+html, body {
+height: 100%;
+margin: 0;
+}
+
+html {
+  font-size: 1vw;
+}
+
+.desktop {
+width: 100%;
+height: 100vh;
+position: relative;
+background: linear-gradient(180deg, #541616 69.23%, #eeb31a);
+overflow: hidden;
+text-align: left;
+font-size: 1.8vw;
+color: #000;
+font-family: Lato;
+}
+
+.desktop-child {
+  position: absolute; 
+  top: 0;
+  left: 0;           
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.footer-2 {
+position: absolute;
+width: 100%;
+right: 0px;
+bottom: 0px;
+left: 0px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 4%;
+box-sizing: border-box;
+gap: 20px;
+flex-shrink: 0;
+text-align: center;
+}
+
+.pampanga-state-u-logo-small-1-icon {
+width: 4vw;
+position: relative;
+max-height: 100%;
+object-fit: cover;
+}
+
+.text {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 32px;
+}
+
+.company {
+display: flex;
+align-items: center;
+}
+
+.pampanga-state-university {
+position: relative;
+letter-spacing: -0.02em;
+line-height: 145%;
+font-weight: 600;
+}
+
+.nav {
+display: flex;
+align-items: flex-start;
+gap: 32px;
+text-align: left;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.55);
+}
+
+.learn-more {
+position: relative;
+line-height: 145%;
+font-weight: 500;
+}
+
+
+.sikhay-wrapper {
+  position: absolute;
+  top: 30%;
+  left: 5%; 
+  z-index: 1; 
+  font-size: clamp(90px, 15vw, 200px);
+  color: #eeb31a;
+  font-family: "cinzel", serif;
+}
+
+.social-links {
+width: auto;
+display: flex;
+align-items: center;
+gap: 1.2vw;
+}
+
+.social-link-1 {
+  width: 2vw;
+  height: auto;
+}
+.social-link-2 {
+  width: 2.3vw;
+  height: auto;
+}
+.social-link-3 {
+  width: 2vw;
+  height: auto;
+}
+
+.sikhay {
+  line-height: 1;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.ellipse-parent {
+  position: absolute;
+  top: 7%;
+  right: 6%;
+  padding: clamp(25px, 3vw, 40px) clamp(40px, 4vw, 80px);
+  backdrop-filter: blur(17.79px);
+  -webkit-backdrop-filter: blur(17.79px);
+
+  border-radius: 28.46px;
+
+  background: rgba(238, 179, 26, 0.13);
+  border: 2.1px solid rgba(85, 0, 0, 0.479);
+  
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 80px;
+  gap: 40px;
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+
+
+.frame-child {
+  width: 120px;          
+  height: 105px;        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.frame-child img {
+  width: 130%;          
+  height: auto;
+  object-fit: contain;
+}
+
+.login-parent {
+width: 250px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.login {
+position: relative;
+}
+
+.frame-parent {
+width: 250px;
+height: auto;
+position: relative;
+font-size: 13px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.email-parent,
+.password-parent {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+
+.forgot-password {
+font-size: 12px;
+color: #fff;
+cursor: pointer;
+}
+
+.sign-in-wrapper {
+width: 250px;
+height: 40px;
+border-radius: 7.11px;
+background-color: #bb0409;
+overflow: hidden;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 16px 0px;
+box-sizing: border-box;
+font-size: 16px;
+cursor: pointer;
+}
+
+.sign-in {
+background-color: #bb0409;
+color: #fff;
+border: none;
+border-radius: 7px;
+width: 100%;
+max-width: 250px;
+height: 5vh;
+font-size: 20px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.dont-have-an-container {
+align-self: stretch;
+position: relative;
+font-size: 9.96px;
+text-align: center;
+}
+
+.register-for-free {
+font-weight: 900;
+cursor: pointer;
+}
+
+.input-field {
+width: 100%;
+max-width: 250px;
+height: 32px;
+border-radius: 5px;
+background-color: #fff;
+border: 0.7px solid #bcbec0;
+box-sizing: border-box;
+padding: 0 12px;
+font-size: 13px;
+color: #000;
+}
+
+.input-field::placeholder {
+color: #bcbec0;
+}
+
