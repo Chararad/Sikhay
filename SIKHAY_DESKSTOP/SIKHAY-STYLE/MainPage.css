@@ -1414,21 +1414,72 @@ body{
 	text-decoration: none;
 }
 
-.popup-comment{
-	background-color: red;
+.popup-comment-container{
 	width: 50%;
-	top: 20%;
-	right: 45%;
-  	height: 300px;
+  	height: 500px;
   	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
   	text-align: left;
   	font-size: 13.44px;
   	color: #541616;
   	font-family: Lato;
-	opacity: 0;
+	opacity: 1;
+	z-index: 10;
 }
 
-.popup-comment.child{
+.popup-comment-parent{
+	display: flex;
+	flex-direction: column;
+	background-color: #f9eed3;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	text-align: left;
+  	font-size: 13.44px;
+  	color: #541616;
+  	font-family: Lato;
+}
+
+.comment-header-parent{
+	height: 13%;
+	width: 100%;
+	display: flex;
+	border: 2px solid black;
+	border-width: 0 0 2px 0;
+}
+
+.users-comment-section-title{
+	height: 100%;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comment-title{
+	margin-left: 70px;
+	font-size: 25px;
+}
+
+.comment-section-cancel-wrapper{
+
+}
+
+.comment-content-parent{
+	height: 74%;
+	width: 100%;
+	background-color: blue;
+}
+
+.comment-chatbox-parent{
+	height: 13%;
+	width: 100%;
+	background-color: red;
+}
+
+.popup-comment-container.child{
 	animation: Appear .5s forwards;
 }
 

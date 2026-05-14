@@ -1,0 +1,514 @@
+.d-morechat {
+  	width: 100%;
+  	height: 1022px;
+  	position: relative;
+  	text-align: left;
+  	font-size: 17px;
+  	color: #000;
+  	font-family: Lato;
+}
+.vuesaxlinearmore-icon {
+  	position: absolute;
+  	top: 33px;
+  	right: 50px;
+  	width: 24px;
+  	height: 24px;
+}
+.d-morechat-child {
+  	position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	box-shadow: -12px 4px 30px rgba(0, 0, 0, 0.25);
+  	background-color: #fab44b;
+  	width: 390px;
+}
+.messanger-profile {
+  	position: absolute;
+  	top: 26px;
+  	right: 8px;
+  	background-color: #fab44b;
+  	width: 375px;
+  	height: 821px;
+  	overflow: hidden;
+}
+.privacy {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: 42px;
+  	left: 0px;
+  	height: 182px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.bars-5-home-indicator-lig {
+  	position: absolute;
+  	height: 18.68%;
+  	width: 100%;
+  	top: 62.64%;
+  	right: 0%;
+  	bottom: 18.68%;
+  	left: 0%;
+  	overflow: hidden;
+}
+.background {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.line {
+  	position: absolute;
+  	bottom: 9px;
+  	left: calc(50% - 66.5px);
+  	border-radius: 100px;
+  	background-color: #060606;
+  	width: 134px;
+  	height: 5px;
+}
+.row {
+  	position: absolute;
+  	height: 28.57%;
+  	width: 100%;
+  	top: 42.86%;
+  	right: 0%;
+  	bottom: 28.57%;
+  	left: 0%;
+  	overflow: hidden;
+}
+.rectangle {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #fab44b;
+}
+.icon {
+  	position: absolute;
+  	height: 61.54%;
+  	width: 8.53%;
+  	top: 19.23%;
+  	right: 4.27%;
+  	bottom: 19.23%;
+  	left: 87.2%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.ignore-messages {
+  	position: absolute;
+  	top: calc(50% - 10px);
+  	left: 4.27%;
+  	letter-spacing: -0.41px;
+}
+.row2 {
+  	position: absolute;
+  	height: 28.57%;
+  	width: 100%;
+  	top: 71.43%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	overflow: hidden;
+}
+.row3 {
+  	position: absolute;
+  	height: 28.57%;
+  	width: 100%;
+  	top: 14.29%;
+  	right: 0%;
+  	bottom: 57.14%;
+  	left: 0%;
+  	overflow: hidden;
+  	text-align: right;
+  	color: rgba(0, 0, 0, 0.35);
+}
+.on {
+  	position: absolute;
+  	top: calc(50% - 10px);
+  	left: 84.8%;
+  	letter-spacing: -0.41px;
+}
+.arrow-right-icon {
+  	position: absolute;
+  	height: 24.62%;
+  	width: 2.08%;
+  	top: 37.5%;
+  	right: 4.59%;
+  	bottom: 37.88%;
+  	left: 93.33%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.notifications {
+  	position: absolute;
+  	top: calc(50% - 10px);
+  	left: 4.27%;
+  	letter-spacing: -0.41px;
+  	color: #000;
+  	text-align: left;
+}
+.privacy2 {
+  	position: absolute;
+  	top: calc(50% - 91px);
+  	left: 4.27%;
+  	font-size: 13px;
+  	letter-spacing: -0.15px;
+  	text-transform: uppercase;
+  	font-weight: 600;
+  	color: rgba(0, 0, 0, 0.35);
+}
+.seperator-icon {
+  	position: absolute;
+  	height: 0.55%;
+  	width: 91.47%;
+  	top: 42.58%;
+  	right: 4.27%;
+  	bottom: 56.87%;
+  	left: 4.27%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.seperator-icon2 {
+  	position: absolute;
+  	height: 0.55%;
+  	width: 91.47%;
+  	top: 71.15%;
+  	right: 4.27%;
+  	bottom: 28.3%;
+  	left: 4.27%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.row4 {
+  	position: absolute;
+  	width: 100%;
+  	right: 0px;
+  	bottom: -10px;
+  	left: 0px;
+  	height: 52px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.row-child {
+  	position: absolute;
+  	height: 61.54%;
+  	width: 8.53%;
+  	top: 19.23%;
+  	right: 4.27%;
+  	bottom: 19.23%;
+  	left: 87.2%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.row-item {
+  	position: absolute;
+  	width: 4.8%;
+  	top: calc(50% - 8px);
+  	right: 6.13%;
+  	left: 89.07%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 16px;
+}
+.seperator-icon3 {
+  	position: absolute;
+  	height: 1.92%;
+  	width: 91.47%;
+  	top: -0.96%;
+  	right: 4.27%;
+  	bottom: 99.04%;
+  	left: 4.27%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.more-actions {
+  	position: absolute;
+  	width: 100%;
+  	top: 434px;
+  	right: 0px;
+  	left: 0px;
+  	height: 129px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.row5 {
+  	position: absolute;
+  	height: 40.31%;
+  	width: 100%;
+  	top: 19.38%;
+  	right: 0%;
+  	bottom: 40.31%;
+  	left: 0%;
+  	overflow: hidden;
+}
+.row6 {
+  	position: absolute;
+  	height: 40.31%;
+  	width: 100%;
+  	top: 59.69%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	overflow: hidden;
+}
+.seperator-icon4 {
+  	position: absolute;
+  	height: 1.92%;
+  	width: 91.47%;
+  	top: 99.04%;
+  	right: 4.27%;
+  	bottom: -0.96%;
+  	left: 4.27%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.more-actions2 {
+  	position: absolute;
+  	top: calc(50% - 64.5px);
+  	left: 4.27%;
+  	font-size: 13px;
+  	letter-spacing: -0.15px;
+  	text-transform: uppercase;
+  	font-weight: 600;
+  	color: rgba(0, 0, 0, 0.35);
+}
+.seperator-icon5 {
+  	position: absolute;
+  	height: 0.78%;
+  	width: 91.47%;
+  	top: 59.3%;
+  	right: 4.27%;
+  	bottom: 39.92%;
+  	left: 4.27%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.more-actions-child {
+  	position: absolute;
+  	height: 18.6%;
+  	width: 6.05%;
+  	top: 30.23%;
+  	right: 5.41%;
+  	bottom: 51.16%;
+  	left: 88.53%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.rows {
+  	position: absolute;
+  	top: 299px;
+  	left: 0px;
+  	width: 375px;
+  	height: 104.5px;
+  	flex-shrink: 0;
+}
+.row7 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fab44b;
+  	width: 375px;
+  	height: 52px;
+  	overflow: hidden;
+}
+.vector-icon {
+  	position: absolute;
+  	height: calc(100% - 31px);
+  	top: 16px;
+  	right: 17px;
+  	bottom: 15px;
+  	max-height: 100%;
+  	width: 21px;
+}
+.seperator-icon6 {
+  	position: absolute;
+  	top: 103.5px;
+  	left: 16px;
+  	width: 343px;
+  	height: 1px;
+}
+.seperator-icon7 {
+  	position: absolute;
+  	top: 51.5px;
+  	left: 16px;
+  	width: 343px;
+  	height: 1px;
+}
+.rectangle8 {
+  	position: absolute;
+  	height: calc(100% - 760px);
+  	width: 100%;
+  	top: 351px;
+  	right: 0px;
+  	bottom: 409px;
+  	left: 0px;
+  	background-color: #fab44b;
+  	flex-shrink: 0;
+}
+.profile-bar {
+  	position: absolute;
+  	height: 36.82%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 63.18%;
+  	left: 0%;
+  	flex-shrink: 0;
+  	text-align: center;
+  	font-size: 24px;
+}
+.oval-icon {
+  	position: absolute;
+  	height: 33.08%;
+  	width: 26.67%;
+  	top: 16.21%;
+  	right: 36.8%;
+  	bottom: 50.71%;
+  	left: 36.53%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.martha-craig {
+  	position: absolute;
+  	top: calc(50% + 9.85px);
+  	left: 36.67%;
+  	letter-spacing: 0.33px;
+}
+.actions {
+  	position: absolute;
+  	height: 19.38%;
+  	width: 51.2%;
+  	top: 75.92%;
+  	right: 24.27%;
+  	bottom: 4.69%;
+  	left: 24.53%;
+  	font-size: 12px;
+  	color: rgba(0, 0, 0, 0.5);
+}
+.action-2 {
+  	position: absolute;
+  	height: 100%;
+  	width: 20.83%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 79.17%;
+  	background-color: #fab44b;
+  	overflow: hidden;
+}
+.icon3 {
+  	position: absolute;
+  	height: 68.94%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 31.06%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.video {
+  	position: absolute;
+  	top: calc(50% + 14.7px);
+  	left: 3.75%;
+  	letter-spacing: -0.01px;
+}
+.search-icon {
+  	position: absolute;
+  	top: 7px;
+  	left: calc(50% - 13px);
+  	width: 25.9px;
+  	height: 25.9px;
+}
+.action-3 {
+  	position: absolute;
+  	height: 100%;
+  	width: 20.83%;
+  	top: 0%;
+  	right: 79.17%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: #fab44b;
+  	overflow: hidden;
+}
+.icon4 {
+  	position: absolute;
+  	height: 68.94%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 31.06%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.profile {
+  	position: absolute;
+  	top: calc(50% + 14.7px);
+  	left: 6.25%;
+  	letter-spacing: -0.01px;
+}
+.action-4 {
+  	position: absolute;
+  	height: 100%;
+  	width: 20.83%;
+  	top: 0%;
+  	right: 39.58%;
+  	bottom: 0%;
+  	left: 39.58%;
+  	background-color: #fab44b;
+  	overflow: hidden;
+}
+.mute {
+  	position: absolute;
+  	top: calc(50% + 14.7px);
+  	left: 13.75%;
+  	letter-spacing: -0.01px;
+}
+.back-icon {
+  	position: absolute;
+  	height: 7.44%;
+  	width: 3.36%;
+  	top: 6.02%;
+  	right: 90.77%;
+  	bottom: 86.54%;
+  	left: 5.87%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.row8 {
+  	position: absolute;
+  	width: 100%;
+  	top: 351px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: #fab44b;
+  	height: 52px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+

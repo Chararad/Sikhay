@@ -55,6 +55,6 @@ const commentBar = document.querySelectorAll(".comment");
 
 commentBar.forEach(function (feed){
     feed.addEventListener("click",function(){
-
+        
     });
 });
