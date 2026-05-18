@@ -192,7 +192,7 @@
 
   /* ── LEFT SIDEBAR ── */
   .sidebar {
-    width: 300px;
+    width: 399px;
     flex-shrink: 0;
     padding: 30px 16px 30px 24px;
     display: flex;
@@ -219,7 +219,8 @@
     border-radius: 11px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.25);
     padding: 12px 16px 20px;
-    width: 260px;
+    width: 290px;
+    margin-left: 45px;
   }
 
   .panel-title {
@@ -483,10 +484,11 @@
 
   .post-action svg { width: 18px; height: 18px; }
 
-  /* ── FOOTER ── */
+  
   footer {
     font-family: var(--font-body);
     position: relative; z-index: 1;
+    font-size: 5px;
     padding: 16px 24px;
     display: flex;
     flex-direction: column;
@@ -500,11 +502,12 @@
   }
 
   .footer-links a {
-    font-size: 13px;
+    
     color: rgba(166,102,60,0.85);
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 0.02em;
+    font-size: 10px;
   }
 
   .footer-copy {
@@ -513,3 +516,24 @@
     font-weight: 600;
     letter-spacing: -0.02em;
   }
+
+
+  .sidebar-footer {
+  width: 260px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.sidebar-footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-footer .footer-links a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-weight: 500;
+}
+

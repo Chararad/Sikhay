@@ -21,7 +21,13 @@
   padding: 0 20px;
   z-index: 1000;
 }
-
+.logo {
+  width: 40px;
+  height: 35px;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
 .nav-left {
   display: flex;
   align-items: center;
@@ -47,10 +53,17 @@
 }
 
 .brand {
-  font-family: "Modern Antiqua";
-  font-size: 20px;
-  color: #ffffff;
+  margin: 0;
+  font-family: "Modern Antiqua", serif;
+  font-size: 45px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+   background: linear-gradient(180deg, #541616, #94372f 65%, #eeb31a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 12px 4px 12.3px rgba(0, 0, 0, 0.25);
 }
+
 
 .d-settings {
   min-height: 100vh;
@@ -158,4 +171,70 @@
   .settings-wrapper {
     grid-template-columns: 1fr;
   }
+}
+
+.company-parent {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  font-size: clamp(10px, 1vw, 14px);
+  color: rgba(243, 233, 233, 0.712);
+  white-space: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+
+
+.company2 {
+  display: inline;
+  font-weight: 600;
+}
+
+.learn-more-group {
+  display: inline;
+}
+
+.learn-more,
+.support2,
+.terms-and-conditions2,
+.privacy-policy2,
+.references2 {
+  display: inline;
+  margin-left: 1.5vw;
+}
+
+
+.social-links img {
+  filter: brightness(0) invert(1);
+}
+
+.social-links {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1.2vw;
+  z-index: 3;
+}
+
+.social-link-1 {
+  width: 2vw;
+  height: auto;
+}
+
+.social-link-2 {
+  width: 2.3vw;
+  height: auto;
+}
+
+.social-link-3 {
+  width: 2vw;
+  height: auto;
 }
