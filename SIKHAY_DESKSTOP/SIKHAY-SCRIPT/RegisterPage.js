@@ -61,5 +61,5 @@ registerBtn.addEventListener("click", function(event){
     if(!CheckPasswordLength(emailValue, passwordValue)) return;
     if(!CheckConfirmPasswords(passwordValue, confirmPasswordValue)) return;
 
-    window.location.href = "MainPage.html";
+    window.location.href = "OTPPage.html";
 })

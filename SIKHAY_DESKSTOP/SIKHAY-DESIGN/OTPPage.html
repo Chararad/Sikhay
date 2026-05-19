@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="../SIKHAY-STYLE/d-OTP.css">
+	<link rel="stylesheet" href="../SIKHAY-STYLE/OTPPage.css">
 </head>
 <body>
     <img src="../SIKHAY-ASSETS/support-OTP/Don-Honorio-Ventura-State-University_8b0167a5305778d81713f6e47ec6de10.jpg" class="background-img" alt="Background">
@@ -19,10 +19,10 @@
             <p>We have sent the verification code to<br>your email address</p>
             
             <div class="otp-inputs">
-                <input class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" value="8" aria-label="OTP digit 1">
-                <input class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" value="5" aria-label="OTP digit 2">
-                <input class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" value="2" aria-label="OTP digit 3">
-                <input class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" aria-label="OTP digit 4">
+                <input id="first" class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" aria-label="OTP digit 1">
+                <input id="second" class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" aria-label="OTP digit 2">
+                <input id="third" class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1"  aria-label="OTP digit 3">
+                <input id="last" class="otp-box" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" aria-label="OTP digit 4">
             </div>
 
             <button class="confirm-btn">Confirm</button>
@@ -52,6 +52,6 @@
        <img class="social-link-3" src="../SIKHAY-ASSETS/support-OTP/email.svg" alt="Email">
 
         </div>
-
+        <script src="../SIKHAY-SCRIPT/OTPPage.js"></script>
 </body>
 </html>

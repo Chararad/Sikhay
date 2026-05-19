@@ -96,9 +96,58 @@ notificationBar.addEventListener("click", ()=>{
     notificationSwitch = !notificationSwitch;
 
     if(notificationSwitch){
+        if(conversationSwitch){
+            conversationClose();
+            conversationSwitch = false;
+        }
         notificationOpen();
     }
     else{
+        
         notificationClose();
     }
+});
+
+//Conversation Bar
+
+const conversationBar = document.querySelector(".chat-icon");
+const conversationPopup = document.querySelector(".popup-conversation-container");
+
+let conversationSwitch = false
+
+function conversationClose(){
+    conversationPopup.classList.remove("active");
+    conversationPopup.classList.add("close");
+}
+
+function conversationOpen(){
+    conversationPopup.classList.remove("close");
+    conversationPopup.classList.add("active");
+}
+
+conversationBar.addEventListener("click", ()=>{
+    conversationSwitch = !conversationSwitch;
+    if(conversationSwitch){
+        if(notificationSwitch){
+            notificationClose();
+            notificationSwitch = false;
+        }
+        conversationOpen();
+    }
+    else{
+        conversationClose();
+    }
+});
+
+function closeAll() {
+    notificationPopup.classList.replace("active", "close");
+    conversationPopup.classList.replace("active", "close");
+    notificationSwitch = false;
+    conversationSwitch = false;
+}
+
+const allConversationBtn = document.querySelector(".popup-conversation-see-all-text");
+
+allConversationBtn.addEventListener("click", ()=>{
+    window.location.href = "MessagingPage.html";
 });
