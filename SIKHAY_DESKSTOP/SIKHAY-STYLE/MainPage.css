@@ -1662,6 +1662,107 @@ body{
 	pointer-events: auto;
 }
 
+.popup-notification-container{
+	width: 280px;
+  	height: 100vh;
+	right: 0;
+  	position: fixed;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 17.21px;
+  	color: #000;
+  	font-family: 'Modern Antiqua';
+	z-index: 10;
+	transform: translateX(100%);
+}
+
+.popup-notification-parent{
+	display: flex;
+	flex-direction: column;
+  	border-radius: 0px 0px 7.5px 7.5px;
+  	background-color: #f9eed3;
+  	width: 100%;
+  	height: 100%;
+  	flex-shrink: 0;
+}
+
+.popup-notification-title{
+	width: 100%;
+	height: 50px;
+}
+
+.popup-notification-text{
+	margin-top: 13.33px;
+  	margin-left: 15.91px;
+  	flex-shrink: 0;
+}
+
+.popup-notification-contents{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	flex-grow: 1;
+	min-height: 0;
+}
+
+.popup-notification-content-parent{
+	background-color: rgba(238, 160, 26, 0.28);
+	border: 1px solid black;
+	border-width: 0 0 1px 0;
+	width: 100%;
+	height: 74px;
+	display: flex;
+}
+
+.popup-notification-content-left{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.popup-notification-profile-pic-frame{
+	border: 2px solid brown;
+	box-shadow: 0px 1.7210884094238281px 0px rgba(0, 0, 0, 0.12);
+  	border-radius: 50%;
+  	width: 55.9px;
+  	height: 55.9px;
+  	object-fit: cover;
+	overflow: hidden;
+}
+
+.popup-notification-content-right{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.popup-notification-content-name{
+	margin-top: 15px;
+	display: inline-block;
+	flex-shrink: 0;
+  	font-size: 12.33px;
+  	font-family: Lato;
+}
+
+.popup-notification-timestamp{
+	font-weight: 500;
+	font-size: 10.33px;
+  	font-family: Lato;
+  	color: #6c6c6c;
+}
+
+.popup-notification-container.active{
+	animation: SlideIn2 0.3s ease forwards;
+}
+
+.popup-notification-container.close{
+	animation: SlideOut2 0.3s ease forwards;
+}
+
 .black-bg{
 	background-color: #000;
 	height: 100vh;
@@ -1705,6 +1806,24 @@ body{
 	}
 	to{
 		opacity: .7;
+	}
+}
+
+@keyframes SlideIn2{
+	from{
+		transform: translateX(100%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+
+@keyframes SlideOut2{
+	from{
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(100%);
 	}
 }
 

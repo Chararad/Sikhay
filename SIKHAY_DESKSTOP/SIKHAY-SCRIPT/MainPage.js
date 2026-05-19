@@ -76,3 +76,29 @@ function closeComment(){
     popup.classList.remove("child")
     whiteBG.classList.remove("active");
 }
+
+//Notification Bar
+const notificationBar = document.querySelector(".bell-icon");
+const notificationPopup = document.querySelector(".popup-notification-container");
+let notificationSwitch = false;
+
+function notificationClose(){
+    notificationPopup.classList.remove("active");
+    notificationPopup.classList.add("close");
+}
+
+function notificationOpen(){
+    notificationPopup.classList.remove("close");
+    notificationPopup.classList.add("active");
+}
+
+notificationBar.addEventListener("click", ()=>{
+    notificationSwitch = !notificationSwitch;
+
+    if(notificationSwitch){
+        notificationOpen();
+    }
+    else{
+        notificationClose();
+    }
+});
