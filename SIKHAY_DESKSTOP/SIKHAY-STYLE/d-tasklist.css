@@ -55,7 +55,6 @@ nav {
 .logo-circle {
   width: 32px; height: 32px;
   border-radius: 50%;
-  background: #d9d9d9;
   flex-shrink: 0;
 }
 
@@ -163,7 +162,7 @@ nav {
 .bg-building {
   position: fixed;
   top: 56px; left: 0; right: 0; bottom: 0;
-  background-image: var(--bg-img, url("Assets/Don-Honorio.png"));
+  background-image: var(--bg-img, url("../SIKHAY-ASSETS/task-list/Don-Honorio.png"));
   background-size: cover;
   background-position: center top;
   opacity: 0.18;
@@ -175,7 +174,7 @@ nav {
 .bg-lines {
   position: fixed;
   top: 56px; left: 0; right: 0; bottom: 0;
-  background-image: url("Assets/d-lines bg task and resources lists.png");
+  background-image: url("../SIKHAY-ASSETS/task-list/d-lines bg task and resources lists.png");
   background-size: cover;
   background-position: center top;
   opacity: 0.38;
