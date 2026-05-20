@@ -151,3 +151,16 @@ const allConversationBtn = document.querySelector(".popup-conversation-see-all-t
 allConversationBtn.addEventListener("click", ()=>{
     window.location.href = "MessagingPage.html";
 });
+
+//Popular Resources
+const popResourceBtn = document.querySelector(".popular-resources-wrapper");
+
+popResourceBtn.addEventListener("click", ()=>{
+    window.location.href = "PopularResourcesPage.html"
+});
+
+//Top Contributors
+const topContributorBtn = document.querySelector(".top-contributors-wrapper");
+topContributorBtn.addEventListener("click", ()=>{
+    window.location.href = "TopContributorPage.html"
+});
