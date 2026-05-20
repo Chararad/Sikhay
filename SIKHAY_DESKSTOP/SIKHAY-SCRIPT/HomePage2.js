@@ -63,3 +63,20 @@ submit.addEventListener("click", function (event){
 register.onclick = function(){
     window.location.href = "RegisterPage.html";
 }
+
+const learnMoreBtn = document.getElementById("learn");
+const supportBtn = document.getElementById("support");
+
+learnMoreBtn.addEventListener("click", ()=>{
+   window.location.href = "NonUserAboutUsPage.html";
+});
+
+supportBtn.addEventListener("click", ()=>{
+    window.location.href = "";
+});
+
+const resetPassword = document.querySelector(".forgot-password");
+
+resetPassword.addEventListener("click", ()=>{
+    window.location.href = "ResetPasswordPage.html"
+});
