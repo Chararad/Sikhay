@@ -23,6 +23,12 @@ body {
     mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
+.company-parent a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
 .desktop {
     position: relative;
     min-height: 100vh;

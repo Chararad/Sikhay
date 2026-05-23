@@ -457,6 +457,8 @@ body{
 .references2 {
   display: inline;
   margin-left: 1.5vw;
+  color: inherit;
+  text-decoration: none;
 }
 
 
@@ -636,4 +638,9 @@ body{
   border-radius: 4px;
   margin-left: 50px;
   margin-top: 10px;
+}
+
+.company-parent a {
+  color: inherit;
+  text-decoration: none;
 }

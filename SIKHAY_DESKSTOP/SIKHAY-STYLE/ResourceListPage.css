@@ -192,7 +192,7 @@
 
   /* ── LEFT SIDEBAR ── */
   .sidebar {
-    width: 399px;
+    width: 440px;
     flex-shrink: 0;
     padding: 30px 16px 30px 24px;
     display: flex;

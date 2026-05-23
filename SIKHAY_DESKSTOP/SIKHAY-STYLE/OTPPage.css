@@ -9,6 +9,11 @@
             --text-dark: rgba(0, 0, 0, 0.8);
         }
 
+        .company-parent a {
+  color: inherit;
+  text-decoration: none;
+}
+
         * {
             margin: 0;
             padding: 0;

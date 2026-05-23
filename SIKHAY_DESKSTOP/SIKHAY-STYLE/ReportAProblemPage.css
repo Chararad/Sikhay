@@ -24,6 +24,11 @@ body{
   margin-top: 0px;
 }
 
+.company-parent a {
+  color: inherit;
+  text-decoration: none;
+}
+
 
 .navigation{
     position: sticky;
