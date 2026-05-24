@@ -4,17 +4,16 @@ const menu = document.querySelector(".hamburger");
 const menubar = document.querySelector(".menu-bar");
 const blackBG = document.querySelector(".black-bg");
 const cm1 = document.getElementById("comment1");
-const popup = document.querySelector(".popup-comment");
 
-const resourceBtn = document.getElementById("task-panel");
-const popResourcesBtn = document.getElementById("pop-resources-panel");
+const taskBtn = document.getElementById("task-panel");
+const resourceBtn = document.getElementById("resource-panel");
 
-resourceBtn.addEventListener("click", ()=>{
+taskBtn.addEventListener("click", ()=>{
     window.location.href = "TaskListPage.html";
 });
 
-popResourcesBtn.addEventListener("click", ()=>{
-    window.location.href = "PopularResourcesPage.html";
+resourceBtn.addEventListener("click", ()=>{
+    window.location.href = "ResourceListPage.html";
 });
 
 
@@ -41,29 +40,31 @@ function menuClicked(){
 
 
 //Comment bar
-const commentBar = document.getElementById("comment-box");
-const popupComment = document.querySelector(".popup-comment-container");
+const commentBar = document.querySelectorAll(".comment-wrapper");
+const popup = document.querySelector(".popup-comment-container");
 const cancelCommentBtn = document.querySelector(".cancel-comment-icon");
 
 
-commentBar.addEventListener("click",function(e){
-        e.preventDefault();
+commentBar.forEach(function (feed){
+    feed.addEventListener("click",function(){
         openComment();
     });
+});
 
 cancelCommentBtn.addEventListener("click", () =>{
     closeComment();
 })
 
 function openComment(){
-    popupComment.classList.add("child");
+    popup.classList.add("child");
     whiteBG.classList.add("active");
 }
 
 function closeComment(){
-    popupComment.classList.remove("child")
+    popup.classList.remove("child")
     whiteBG.classList.remove("active");
 }
+
 
 //Notification Bar
 const notificationBar = document.getElementById("bell");
@@ -142,8 +143,9 @@ allConversationBtn.addEventListener("click", ()=>{
     window.location.href = "MessagingPage.html";
 });
 
-const profileBtn = document.getElementById("avatar");
+const avatar = document.querySelector(".user-avatar");
 
-profileBtn.addEventListener("click", ()=>{
+avatar.addEventListener("click", (e)=>{
+    e.preventDefault();
     window.location.href = "ProfilePage.html";
 });

@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Settings</title>
-
+  <title>SIKHAY-Settings</title>
+<link rel="icon" type="image/x-icon" href="../SIKHAY-ASSETS/SIKHAYLOGO.PNG">
   <link rel="stylesheet" href="../SIKHAY-STYLE/SettingsPage.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;800&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap">
@@ -15,10 +15,6 @@
 
 	<header class="top-nav">
   <div class="nav-left">
-    <button class="icon-btn" type="button" aria-label="Open menu">
-      <img src="../SIKHAY-ASSETS/settings/hamburger.svg" alt="">
-    </button>
-
     <img class="logo" src="../SIKHAY-ASSETS/SIKHAYLOGO.PNG" alt="SIKHAY Logo">
 
     <h1 class="brand">SIKHAY</h1>
@@ -37,7 +33,7 @@
     <div class="section">
       <div class="section-title">Account</div>
 
-      <div class="item">
+      <div class="item" id="profile">
         <div class="item-title">Profile</div>
         <div class="item-sub">Update your personal information</div>
       </div>
@@ -62,22 +58,22 @@
     <div class="section">
       <div class="section-title">Support & About</div>
 
-      <div class="item">
+      <div class="item" id="faq">
         <div class="item-title">Help & Support</div>
         <div class="item-sub">FAQs and assistance</div>
       </div>
 
-      <div class="item">
+      <div class="item" id="about">
         <div class="item-title">About Sikhay</div>
         <div class="item-sub">Learn more about the platform</div>
       </div>
 
-      <div class="item">
+      <div class="item" id="tos">
         <div class="item-title">Terms of Service</div>
         <div class="item-sub">Rules and conditions</div>
       </div>
 
-      <div class="item">
+      <div class="item" id="pp">
         <div class="item-title">Privacy Policy</div>
         <div class="item-sub">How your data is used</div>
       </div>
@@ -87,7 +83,7 @@
     <div class="section">
       <div class="section-title">Actions</div>
 
-      <div class="item">
+      <div class="item" id="rap">
         <div class="item-title">Report a Problem</div>
         <div class="item-sub">Report bugs or issues</div>
       </div>
@@ -99,7 +95,7 @@
 
    <div class="item danger logout-item">
 
-  <div class="item-text">
+  <div class="item-text" id="logout">
     <div class="item-title">Log Out</div>
     <div class="item-sub">Sign out of your account</div>
   </div>
@@ -139,5 +135,6 @@
      			</a>
      		</div>
 
+        <script src="../SIKHAY-SCRIPT/SettingsPage.js"></script>
 </body>
 </html>

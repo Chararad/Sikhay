@@ -81,3 +81,9 @@ const resetPassword = document.querySelector(".forgot-password");
 resetPassword.addEventListener("click", ()=>{
     window.location.href = "ResetPasswordPage.html"
 });
+
+const secretPage = document.getElementById("secret");
+
+secretPage.addEventListener("click", ()=>{
+    window.location.href = "ErrorPage.html";
+});

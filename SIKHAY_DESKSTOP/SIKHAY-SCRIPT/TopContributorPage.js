@@ -1,18 +1,4 @@
-const learnMoreBtn = document.querySelector(".learn-more");
-const privacyPolicyBtn = document.querySelector(".privacy-policy");
-const TOSBtn = document.querySelector(".terms-and-conditions");
 
-learnMoreBtn.addEventListener("click", () =>{
-    window.location.href = "AboutUsPage.html"
-});
-
-privacyPolicyBtn.addEventListener("click", ()=>{
-    window.location.href = "PrivacyPolicyPage.html"
-});
-
-TOSBtn.addEventListener("click", () =>{
-    window.location.href = "TOSPage.html"
-});
 
 const menu = document.querySelector(".hamburger-con");
 const menubar = document.querySelector(".menu-bar");
