@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SIKHAY – Resources List</title>
+<title>SIKHAY-Tasks Page</title>
+<link rel="icon" type="image/x-icon" href="../SIKHAY-ASSETS/SIKHAYLOGO.PNG">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,800&display=swap">
 <link rel="stylesheet" href="../SIKHAY-STYLE/TaskListPage.css">
@@ -13,10 +14,11 @@
 
 <nav>
   <div class="nav-logo">
+    
     <div class="hamburger">
       <span></span><span></span><span></span>
     </div>
-   
+   <img src="../SIKHAY-ASSETS/SIKHAYLOGO.PNG" alt="" style="height: 40px; width: 40px;">
     <span class="logo-text">SIKHAY</span>
     
   </div>
@@ -32,11 +34,571 @@
 
   <div class="nav-right">
     <button class="btn-create">+ Create</button>
-    <img class="nav-icon" src="../SIKHAY-ASSETS/task-list/Chat_Circle.svg" alt="" width="24" height="24">
-    <img class="nav-icon" src="../SIKHAY-ASSETS/task-list/Bell.svg" alt="" width="24" height="24">
+    <img id="chat" class="nav-icon" src="../SIKHAY-ASSETS/task-list/Chat_Circle.svg" alt="" width="24" height="24">
+    <img id="bell" class="nav-icon" src="../SIKHAY-ASSETS/task-list/Bell.svg" alt="" width="24" height="24">
     <div class="avatar"></div>
   </div>
 </nav>
+
+
+    <div class="black-bg"></div>
+    <div class="white-bg"></div>
+    <div class="layout">
+        <div class="popup-notification-container">
+            <div class="popup-notification-parent">
+                <div class="popup-notification-title">
+                    <div class="popup-notification-text">Notifications</div>
+                </div>
+                <div class="popup-notification-contents">
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                    <div class="popup-notification-content-parent">
+                        <div class="popup-notification-content-left">
+                            <div class="popup-notification-profile-pic-frame">
+                                <img src="" alt="" class="popup-notification-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-notification-content-right">
+                            <div class="popup-notification-content-name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                            <div class="popup-notification-timestamp">1m ago.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-conversation-container">
+            <div class="popup-conversation-parent">
+                <div class="popup-conversation-header">
+                    <div class="popup-conversation-title">Conversations</div>
+                    <div class="popup-conversation-searchbar-wrapper">
+                        <img src="../SIKHAY-ASSETS/main-page/search.svg" class="popup-conversation-search-icon"></img>
+                        <input type="text" class="popup-conversation-search-bar" placeholder="Search">
+                    </div>
+                </div>
+                <div class="popup-conversation-contents">
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-conversation-content-parent">
+                        <div class="popup-conversation-content-left">
+                            <div class="popup-conversation-profile-pic-frame">
+                                <img src="" alt="" class="popup-conversation-profile-pic">
+                            </div>
+                        </div>
+                        <div class="popup-conversation-content-right">
+                            <div class="popup-conversation-username">Juan Dela Cruz</div>
+                            <div class="popup-conversation-message-parent">
+                                <div class="popup-conversation-message">You okay?</div>
+                                <div class="popup-conversation-little-circle"></div>
+                                <div class="popup-conversation-timestamp">3m ago.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-conversation-see-all">
+                    <div class="popup-conversation-see-all-text">See all...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup-comment-container">
+            <div class="popup-comment-parent">
+                <div class="comment-header-parent">
+                    <div class="users-comment-section-title">
+                        <div class="comment-title">Jester Dayao's Post</div>
+                    </div>
+                    <div class="comment-section-cancel-wrapper">
+                        <div class="cancel-comment-frame">
+                            <img src="../SIKHAY-ASSETS/main-page/Close_MD.svg" alt="" class="cancel-comment-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-content-parent">
+                    <div class="comment-container" >
+                        <div class="comment-content-parent2">
+                            <div class="comment-user-profile">
+                                <div class="comment-user-profile-wrapper"></div>
+                            </div>
+                            <div class="comment-section-wrapper">
+                                <div class="comment-header">
+                                    <div class="comment-user-username">Richard Adam Leo M. Lacanlale</div>
+                                    <div class="comment-post-date">May 14, 2026</div>
+                                </div>
+                                <div class="comment-message">Calculator ko yan ah? Bat nasayo yan? ihhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</div>
+                                <div class="comment-footer">
+                                    <div class="comment-likes-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-like.svg" alt="" class="comment-likes-icon">
+                                        <div class="number-of-comment-likes">5</div>
+                                    </div>
+                                    <div class="comment-replies-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-comment.svg" alt="" class="comment-replies-icon">
+                                        <div class="number-of-comment-replies">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply-text">Reply</div>
+                    </div>
+
+                    <div class="comment-container">
+                        <div class="comment-content-parent2">
+                            <div class="comment-user-profile">
+                                <div class="comment-user-profile-wrapper"></div>
+                            </div>
+                            <div class="comment-section-wrapper">
+                                <div class="comment-header">
+                                    <div class="comment-user-username">Ralph Edwards</div>
+                                    <div class="comment-post-date">May 1, 2026</div>
+                                </div>
+                                <div class="comment-message">In mauris porttitor tincidunt mauris massa sit lorem sed scelerisque. Fringilla pharetra vel massa enim sollicitudin cras. At pulvinar eget sociis adipiscing eget donec ultricies nibh tristique. </div>
+                                <div class="comment-footer">
+                                    <div class="comment-likes-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-like.svg" alt="" class="comment-likes-icon">
+                                        <div class="number-of-comment-likes">5</div>
+                                    </div>
+                                    <div class="comment-replies-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-comment.svg" alt="" class="comment-replies-icon">
+                                        <div class="number-of-comment-replies">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply-text">Reply</div>
+                    </div>
+
+                    <div class="comment-container">
+                        <div class="comment-content-parent2">
+                            <div class="comment-user-profile">
+                                <div class="comment-user-profile-wrapper"></div>
+                            </div>
+                            <div class="comment-section-wrapper">
+                                <div class="comment-header">
+                                    <div class="comment-user-username">Ralph Edwards</div>
+                                    <div class="comment-post-date">May 1, 2026</div>
+                                </div>
+                                <div class="comment-message">In mauris porttitor tincidunt mauris massa sit lorem sed scelerisque. Fringilla pharetra vel massa enim sollicitudin cras. At pulvinar eget sociis adipiscing eget donec ultricies nibh tristique. </div>
+                                <div class="comment-footer">
+                                    <div class="comment-likes-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-like.svg" alt="" class="comment-likes-icon">
+                                        <div class="number-of-comment-likes">5</div>
+                                    </div>
+                                    <div class="comment-replies-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-comment.svg" alt="" class="comment-replies-icon">
+                                        <div class="number-of-comment-replies">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply-text">Reply</div>
+                    </div>
+
+
+                    <div class="comment-container">
+                        <div class="comment-content-parent2">
+                            <div class="comment-user-profile">
+                                <div class="comment-user-profile-wrapper"></div>
+                            </div>
+                            <div class="comment-section-wrapper">
+                                <div class="comment-header">
+                                    <div class="comment-user-username">Ralph Edwards</div>
+                                    <div class="comment-post-date">May 1, 2026</div>
+                                </div>
+                                <div class="comment-message">In mauris porttitor tincidunt mauris massa sit lorem sed scelerisque. Fringilla pharetra vel massa enim sollicitudin cras. At pulvinar eget sociis adipiscing eget donec ultricies nibh tristique. </div>
+                                <div class="comment-footer">
+                                    <div class="comment-likes-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-like.svg" alt="" class="comment-likes-icon">
+                                        <div class="number-of-comment-likes">5</div>
+                                    </div>
+                                    <div class="comment-replies-wrapper">
+                                        <img src="../SIKHAY-ASSETS/main-page/bx-comment.svg" alt="" class="comment-replies-icon">
+                                        <div class="number-of-comment-replies">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply-text">Reply</div>
+                    </div>
+                    
+
+                </div>
+                <div class="comment-chatbox-parent">
+                    <div class="comment-circle-container">
+                        <div class="comment-circle-frame"></div>
+                    </div>
+                    <div class="comment-input-container">
+                        <div class="comment-input-wrapper">
+                            <textarea class="comment-input" placeholder="Add a comment...."></textarea>
+                            <div class="comment-button-wrapper">
+                                <button class="comment-button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-bar">
+            <div class="menu-bar-child">
+
+                <a href="MainPage.html" class="home-wrapper">
+                    <div class="home-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io)-6.svg" class="home-icon" alt="">
+                    </div>
+                    <div class="home-title">Home</div>
+                </a>
+                
+                <a href="TaskListPage.html" class="task-wrapper">
+                    <div class="task-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io)-5.svg" class="task-icon" alt="">
+                    </div>
+                    <div class="task-title">Tasks</div>
+                </a>
+                
+                
+                <a href="ResourceListPage.html" class="resource-wrapper">
+                    <div class="resource-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io)-4.svg" class="resource-icon" alt="">
+                    </div>
+                    <div class="resource-title">Resources</div>
+                </a>
+                
+                <a href="MessagingPage.html" class="conversation-wrapper">
+                    <div class="conversation-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io)-3.svg" class="conversation-icon" alt="">
+                    </div>
+                    <div class="conversation-title">Conversations</div>
+              </a>
+                
+                <a href="FAQPage.html" class="support-wrapper">
+                    <div class="support-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io)-2.svg" class="support-icon" alt="">
+                    </div>
+                    <div class="support-title">Support</div>
+                </a>
+
+                <a href="SettingsPage.html" class="settings-wrapper">
+                    <div class="settings-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io)-1.svg" class="settings-icon" alt="">
+                    </div>
+                    <div class="settings-title">Settings</div>
+                </a>
+
+                <a href="HomePage.html" class="Log-out-wrapper">
+                    <div class="Log-out-icon-frame">
+                        <img src="../SIKHAY-ASSETS/main-page/Icon (from Tabler.io).svg" class="Log-out-icon" alt="">
+                    </div>
+                    <div class="Log-out-title">Log out</div>
+                </a>
+            </div>
+        </div>
 
 <div class="page" id="page">
   <div class="bg-building" id="bgBuilding"></div>
@@ -48,7 +610,7 @@
     <!-- SIDEBAR -->
     <div class="sidebar" style="margin-top:120px;">
 
-      <div class="sidebar-panel">
+      <div class="sidebar-panel" id="resource-panel"> 
         <div class="panel-title">Resource List</div>
         <div class="resource-items">
           <div class="resource-item">
@@ -85,7 +647,7 @@
         <a class="see-more" href="#">See more...</a>
       </div>
 
-      <div class="sidebar-panel">
+      <div class="sidebar-panel" id="pop-resources-panel"> 
         <div class="panel-title">Popular Resources</div>
         <div class="resource-items">
           <div class="resource-item">
@@ -166,7 +728,7 @@
                     </svg>
                     25
                   </div>
-                  <div class="post-action">
+                  <div class="post-action" id="comment-box"">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                       <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
                     </svg>
@@ -277,6 +839,8 @@
 
  
 </div>
+
+<script src="../SIKHAY-SCRIPT/TaskListPage.js"></script>
 
 </body>
 <script src="../SIKHAY-SCRIPT/Reference.js"></script>

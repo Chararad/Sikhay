@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIKHAY-Report A Problem</title>
+    <link rel="icon" type="image/x-icon" href="../SIKHAY-ASSETS/SIKHAYLOGO.PNG">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modern Antiqua:wght@400&display=swap" />
+  	<link rel="stylesheet" href="../SIKHAY-STYLE/ReportAProblemPage.css ">
+
+</head>
+<body>
+    <!--Main Background (Main Parent)-->
+    <div class="main-bg">
+
+        <!--Nav Bar-->
+        <div class="navigation">
+            <div class="navigation-left">
+                <button class="icon-btn" type="button" aria-label="Open menu">
+          <img src="../SIKHAY-ASSETS/aboutus/back.svg" alt="">
+        </button>
+                <img class="logo" src="../SIKHAY-ASSETS/SIKHAYLOGO.PNG" alt="SIKHAY Logo">
+                <div class="sikhay-wrapper">
+                    <div class="sikhay">SIKHAY</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="first-text">Report A Problem</div>
+        <div class="first-text-divider"></div>
+
+        <div class="report-details-container">
+            <b class="text2">Report Details</b>
+
+            <select class="type-of-report">
+                <option value="" id="type" name="type" selected disabled>Type of Report....</option>
+                <option value="profile">Profile</option>
+                <option value="website">Website</option>
+                <option value="user">Other User</option>
+                <option value="shared">Shared Resources</option>
+                <option value="post">Post</option>
+            </select>
+
+            <div class="text4">Describe The Issue</div>
+            <textarea class="report-description" placeholder="Please describe the issue that you are facing. Include any relevant information."></textarea>
+       
+            <div class="text5">Photo Evidence</div>
+            <div class="upload-container">
+                <div class="upload-wrapper">
+                    <label for="upload">
+                        <img src="../SIKHAY-ASSETS/report-problem/ copy 2.png" class="upload-icon" alt="">
+                    </label>
+                    <input type="file" id="upload" accept="image/*" hidden>
+                </div>
+            </div>
+            
+            <div class="submit-container">
+                <button class="submit-btn">
+                    <div class="submit">Submit Report</div>
+                </button>
+            </div>
+        </div>
+
+<footer>
+       <div class="company-parent">
+        		<div class="company2">
+           			<div class="pampanga-state-university">
+              			© 2026 Pampanga State University. All Rights Reserved.
+           			</div>
+        		</div>
+        	<div class="learn-more-group">
+            <div class="learn-more"><a href="NonUserAboutUsPage.html">Learn more</a></div>
+            <div class="support2"><a href="NonUserFAQPage.html">Support</a></div>
+            <div class="terms-and-conditions2"><a href="NonUserTOSPage.html">Terms and Conditions</a></div>
+            <div class="privacy-policy2"><a href="NonUserPrivacyPolicyPage.html">Privacy Policy</a></div>
+			<div class="references2"> <a href="#" id="openReferences">Reference</a></div>
+
+        		</div>
+     		</div>
+
+     		<div class="social-links">
+        			<a href="https://www.facebook.com/profile.php?id=61585711923226" target="_blank">
+        		<img class="social-link-1" src="../SIKHAY-ASSETS/support-FAQ/facebook.svg" alt="Facebook">
+				</a>
+				<a href="https://www.youtube.com/watch?v=822Hg-nMDbg&list=RDolMLDCedsRM&index=3" target="_blank">
+        			<img class="social-link-2" src="../SIKHAY-ASSETS/support-FAQ/youtube.svg" alt="YouTube">
+				</a>
+				<a href="mailto:jestered2992@yahoo.com">
+        			<img class="social-link-3" src="../SIKHAY-ASSETS/support-FAQ/email.svg" alt="Email">
+     			</a>
+     		</div>
+</footer>
+
+<script src="../SIKHAY-SCRIPT/NonUserReportAProblemPage.js"></script>
+    </div>
+</body>
+<script src="../SIKHAY-SCRIPT/Reference.js"></script>
+</html>

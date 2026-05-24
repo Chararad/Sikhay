@@ -8,7 +8,8 @@ const register = document.getElementById("register");
 const users = new Map();
 //Inserts your email and passwords here with same format below
 users.set("sikhay@pampangastateu.edu.ph", "12345678");
-//
+users.set("chad@pampangastateu.edu.ph", "12345678");
+//tangek bat iniba pwede naman maglagay isa pa
 
 //Functions for correct email and passwords
 function CheckInputFields(emailValue, passwordValue){
@@ -72,7 +73,7 @@ learnMoreBtn.addEventListener("click", ()=>{
 });
 
 supportBtn.addEventListener("click", ()=>{
-    window.location.href = "d-support-faq-nonuser.html";
+    window.location.href = "NonUserFAQPage.html";
 });
 
 const resetPassword = document.querySelector(".forgot-password");

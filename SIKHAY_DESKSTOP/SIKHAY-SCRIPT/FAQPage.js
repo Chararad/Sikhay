@@ -1,11 +1,14 @@
-
-const navigateBtn = document.getElementById("navigateBtn");
-const menu = document.querySelector(".icon-btn");
+const menu = document.querySelector(".hamburger-icon");
 const menubar = document.querySelector(".menu-bar");
 const blackBG = document.querySelector(".black-bg");
 const whiteBG = document.querySelector(".white-bg");
 const cm1 = document.getElementById("comment1");
+const reportBtn = document.querySelector(".report-div");
 
+
+reportBtn.addEventListener("click", ()=>{
+    window.location.href = "NonUserReportAProblemPage.html";
+});
 
 
 let menuSwitch = false;
@@ -28,10 +31,4 @@ function menuClicked(){
         menubar.classList.add("close");
         blackBG.classList.remove("active");
     }
-}
-
-if (navigateBtn) {
-  navigateBtn.onclick = () => {
-    window.location.href = "../SIKHAY-DESIGN/MainPage.html";
-  };
 }
