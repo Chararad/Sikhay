@@ -1,0 +1,229 @@
+.post-pop-up {
+  	width: 100%;
+  	height: 455.7px;
+  	position: relative;
+  	border-radius: 18.79px;
+  	background-color: #f9eed3;
+  	border: 2.8px solid #541616;
+  	box-sizing: border-box;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18.79px;
+  	color: rgba(255, 255, 255, 0.6);
+  	font-family: Lato;
+}
+.post-pop-up-child {
+  	position: absolute;
+  	width: calc(100% - 24.4px);
+  	top: 59.66px;
+  	right: 12.66px;
+  	left: 11.74px;
+  	border-top: 0.9px solid rgba(0, 0, 0, 0.4);
+  	box-sizing: border-box;
+  	height: 0.9px;
+}
+.create-post {
+  	position: absolute;
+  	top: 23.49px;
+  	left: calc(50% - 96.3px);
+  	font-size: 33.82px;
+  	line-height: 94%;
+  	font-family: 'Modern Antiqua';
+  	color: #000;
+}
+.post-pop-up-item {
+  	position: absolute;
+  	top: 70.46px;
+  	left: 26.31px;
+  	border-radius: 50%;
+  	width: 48.9px;
+  	height: 48.9px;
+  	object-fit: cover;
+}
+.username {
+  	position: absolute;
+  	top: 81.74px;
+  	left: 82.68px;
+  	font-size: 22.55px;
+  	color: #000;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: 78.92px;
+  	left: 204.82px;
+  	width: 254.6px;
+  	height: 32.9px;
+}
+.frame-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 30.06px;
+  	background-color: #832c2c;
+  	width: 254.6px;
+  	height: 32.9px;
+}
+.group-icon {
+  	position: absolute;
+  	height: 17.02%;
+  	width: 4.44%;
+  	top: 48.55%;
+  	right: 4.78%;
+  	bottom: 34.43%;
+  	left: 90.78%;
+  	filter: drop-shadow(0px 3.7581186294555664px 3.76px rgba(0, 0, 0, 0.25));
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.select-section-required {
+  	position: absolute;
+  	top: 4.7px;
+  	left: 15.97px;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: 338.23px;
+  	left: 38.52px;
+  	width: 137.2px;
+  	height: 32.9px;
+}
+.frame-item {
+  	position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	border-radius: 30.06px;
+  	background-color: #832c2c;
+  	width: 137.2px;
+}
+.add-topic-wrapper {
+  	position: absolute;
+  	top: 4.7px;
+  	left: 15.97px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.add-topic {
+  	position: relative;
+}
+.vector-icon {
+  	position: absolute;
+  	height: calc(100% - 21.6px);
+  	top: 12.21px;
+  	right: 13.16px;
+  	bottom: 9.39px;
+  	max-height: 100%;
+  	width: 11.3px;
+  	opacity: 0.61;
+}
+.rectangle-container {
+  	position: absolute;
+  	top: 338.23px;
+  	left: 197.3px;
+  	width: 137.2px;
+  	height: 32.9px;
+}
+.frame-div {
+  	position: absolute;
+  	top: 338.23px;
+  	left: 353.26px;
+  	width: 137.2px;
+  	height: 32.9px;
+}
+.post-pop-up-inner {
+  	position: absolute;
+  	top: 201.53px;
+  	left: 23.02px;
+  	border-top: 0.9px solid rgba(0, 0, 0, 0.18);
+  	box-sizing: border-box;
+  	width: 484.8px;
+  	height: 0.9px;
+}
+.please-enter-title {
+  	position: absolute;
+  	top: 151.26px;
+  	left: 26.31px;
+  	font-size: 33.82px;
+  	font-weight: 800;
+  	color: rgba(0, 0, 0, 0.36);
+}
+.menu-close-md {
+  	position: absolute;
+  	top: 15.97px;
+  	right: 24.43px;
+  	border-radius: 15.03px;
+  	width: 31px;
+  	height: 31px;
+}
+.rectangle-parent2 {
+  	position: absolute;
+  	top: 119.32px;
+  	right: 46.01px;
+  	width: 258.4px;
+  	height: 234.9px;
+  	font-size: 15.03px;
+  	color: rgba(0, 0, 0, 0.36);
+}
+.frame-child2 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	border-radius: 17.3px;
+  	background-color: #fffaef;
+  	height: 234.9px;
+  	flex-shrink: 0;
+}
+.img-box-duotone-line-icon {
+  	position: absolute;
+  	top: 77.98px;
+  	left: calc(50% - 36.19px);
+  	width: 72.3px;
+  	height: 73.3px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+.add-round-duotone-icon {
+  	position: absolute;
+  	top: 117.44px;
+  	left: 135.29px;
+  	width: 41.3px;
+  	height: 40.4px;
+  	flex-shrink: 0;
+}
+.div {
+  	position: absolute;
+  	top: 47.92px;
+  	left: -72.34px;
+  	flex-shrink: 0;
+}
+.please-enter-description {
+  	position: absolute;
+  	top: 215.15px;
+  	left: 26.31px;
+  	font-size: 22.55px;
+  	color: rgba(0, 0, 0, 0.36);
+}
+.post-pop-up-child2 {
+  	position: absolute;
+  	width: calc(100% - 84.6px);
+  	right: 46.08px;
+  	bottom: 19.79px;
+  	left: 38.52px;
+  	border-radius: 12.21px;
+  	background-color: #eeb31a;
+  	height: 50.7px;
+}
+.post {
+  	position: absolute;
+  	bottom: 23.86px;
+  	left: 384.27px;
+  	font-size: 33.82px;
+  	font-weight: 900;
+  	color: rgba(0, 0, 0, 0.62);
+}
+
