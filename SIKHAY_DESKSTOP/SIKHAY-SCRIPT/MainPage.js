@@ -164,3 +164,23 @@ const topContributorBtn = document.querySelector(".top-contributors-wrapper");
 topContributorBtn.addEventListener("click", ()=>{
     window.location.href = "TopContributorPage.html"
 });
+
+const closePost = document.querySelector(".popup-newpost-cancel");
+const newPost = document.querySelector(".popup-newpost-container");
+const postBtn = document.querySelector(".popup-newpost-btn");
+const createPostBtn = document.querySelector(".create-btn");
+
+createPostBtn.addEventListener("click", ()=>{
+    newPost.classList.add("active");
+    whiteBG.classList.add("active");
+});
+
+closePost.addEventListener("click", ()=>{
+    newPost.classList.remove("active");
+    whiteBG.classList.remove("active");
+});
+
+postBtn.addEventListener("click", ()=>{
+    newPost.classList.remove("active");
+    whiteBG.classList.remove("active");
+});

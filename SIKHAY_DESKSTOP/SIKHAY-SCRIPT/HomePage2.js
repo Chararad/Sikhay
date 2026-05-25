@@ -58,7 +58,7 @@ submit.addEventListener("click", function (event){
     if(!CheckEmailUsed(emailValue, passwordValue)) return;
     if(!login(emailValue, passwordValue)) return;
 
-    window.location.href = "MainPage.html";
+    cookiePopup.classList.add("active");
 })
 
 register.onclick = function(){
@@ -87,3 +87,11 @@ const secretPage = document.getElementById("secret");
 secretPage.addEventListener("click", ()=>{
     window.location.href = "ErrorPage.html";
 });
+
+const cookiePopup = document.querySelector(".popup-cookie-container");
+const agreeBtn = document.querySelector(".popup-cookie-btn");
+
+agreeBtn.addEventListener("click", ()=>{
+    window.location.href = "MainPage.html";
+    cookiePopup.classList.remove("active");
+})

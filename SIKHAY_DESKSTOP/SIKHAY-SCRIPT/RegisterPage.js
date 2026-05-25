@@ -61,5 +61,13 @@ registerBtn.addEventListener("click", function(event){
     if(!CheckPasswordLength(emailValue, passwordValue)) return;
     if(!CheckConfirmPasswords(passwordValue, confirmPasswordValue)) return;
 
-    window.location.href = "OTPPage.html";
+    termsPopup.classList.add("active");
 })
+
+const termsPopup = document.querySelector(".popup-terms-container");
+const acceptTermsBtn = document.querySelector(".popup-terms-btn");
+
+acceptTermsBtn.addEventListener("click", ()=>{
+    window.location.href = "OTPPage.html";
+    termsPopup.classList.remove("active");
+});
